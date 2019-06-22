@@ -8,6 +8,8 @@ package com.airhacks.reminders.boundary;
 import com.airhacks.reminders.entity.ToDo;
 import java.util.ArrayList;
 import java.util.List;
+import javax.ejb.Stateless;
+import javax.inject.Inject;
 import javax.ws.rs.DELETE;
 import javax.ws.rs.GET;
 import javax.ws.rs.POST;
@@ -20,33 +22,34 @@ import javax.ws.rs.core.MediaType;
  *
  * @author jabroni
  */
+@Stateless
 @Path("todos")
 public class TodosResource
 {
+    @Inject
+    ToDoManager manager;
+    
     @GET
     @Path("{id}")
     public ToDo find(@PathParam("id") long id)
     {
-        return new ToDo("implement REST endpoint " + id, "...", 100);
+        return manager.findById(id);
     }
     
     @DELETE
     @Path("{id}")
     public void delete(@PathParam("id") long id)
     {
-        System.out.println("deleted = " + id);
+        manager.delete(id);
     }
     
     @GET
-    @Produces(MediaType.APPLICATION_JSON)
     public List<ToDo> all(){
-        List<ToDo> all = new ArrayList<>();
-        all.add(find(42));
-        return all;
+        return manager.getAll();
     }
     
     @POST
     public void save(ToDo todo){
-        System.out.println("todo = " + todo);
+        manager.save(todo);
     }
 }
