@@ -1,2 +1,4 @@
 com/airhacks/JAXRSConfiguration.class
+com/airhacks/reminders/entity/ToDo.class
 com/airhacks/reminders/boundary/TodosResource.class
+com/airhacks/reminders/boundary/ToDoManager.class

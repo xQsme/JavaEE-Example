@@ -35,25 +35,46 @@ public class TodosResourceIT {
     @Test
     public void crud()
     {
+        //create
         JsonObjectBuilder todoBuilder = Json.createObjectBuilder();
         JsonObject todoToCreate = todoBuilder.add("caption", "implement").add("description", "REST").add("priority", (42)).build();
-        
         Response postResponse = this.provider.target().request().post(Entity.json(todoToCreate));
-        assertThat(postResponse.getStatus(), is(204));
-        
+        assertThat(postResponse.getStatus(), is(201));
+        String location = postResponse.getHeaderString("Location");
+ 
+        //find all
         Response response = this.provider.target().request(MediaType.APPLICATION_JSON).get();
         assertThat(response.getStatus(), is(200));
         
         JsonArray allTodos = response.readEntity(JsonArray.class);
         assertFalse(allTodos.isEmpty());
         
+        //get first
         JsonObject todo = allTodos.getJsonObject(0);
         assertTrue(todo.getString("caption").startsWith("implement"));
         
-        JsonObject dedicatedTodo = this.provider.target().path("1").request(MediaType.APPLICATION_JSON).get(JsonObject.class);
+        //get specific
+        JsonObject dedicatedTodo = this.provider.client().target(location).request(MediaType.APPLICATION_JSON).get(JsonObject.class);
         assertTrue(dedicatedTodo.getString("caption").contains("implement"));
 
-        Response deleteResponse = this.provider.target().path("1").request(MediaType.APPLICATION_JSON).delete();
+        //update
+        JsonObject todoToUpdate = todoBuilder.add("caption", "implemented").add("description", "REST done").add("priority", (0)).build();
+        this.provider.client().target(location).request(MediaType.APPLICATION_JSON).put(Entity.json(todoToUpdate));
+        
+        //find again
+        JsonObject updatedTodo = this.provider.client().target(location).request(MediaType.APPLICATION_JSON).get(JsonObject.class);
+        assertTrue(updatedTodo.getString("caption").contains("implemented"));
+        
+        //update status
+        JsonObject statusUpdate = todoBuilder.add("done", true).build();
+        this.provider.client().target(location).path("status").request(MediaType.APPLICATION_JSON).put(Entity.json(statusUpdate));
+        
+        //verify status
+        JsonObject updatedStatus = this.provider.client().target(location).request(MediaType.APPLICATION_JSON).get(JsonObject.class);
+        assertTrue(updatedStatus.getBoolean("done"));
+
+        //delete
+        Response deleteResponse = this.provider.client().target(location).request(MediaType.APPLICATION_JSON).delete();
         assertThat(deleteResponse.getStatus(), is(204));
     }
 }
