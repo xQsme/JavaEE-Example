@@ -73,6 +73,18 @@ public class TodosResourceIT {
         JsonObject updatedStatus = this.provider.client().target(location).request(MediaType.APPLICATION_JSON).get(JsonObject.class);
         assertTrue(updatedStatus.getBoolean("done"));
 
+        //update not existing status
+        JsonObject notExistingUpdate = todoBuilder.add("done", true).build();
+        response = this.provider.target().path("-42").path("status").request(MediaType.APPLICATION_JSON).put(Entity.json(notExistingUpdate));
+        assertThat(response.getStatus(), is(400));
+        assertFalse(response.getHeaderString("reason").isEmpty());
+        
+        //update malformed status
+        notExistingUpdate = todoBuilder.add("something wrong", true).build();
+        response = this.provider.client().target(location).path("status").request(MediaType.APPLICATION_JSON).put(Entity.json(notExistingUpdate));
+        assertThat(response.getStatus(), is(400));
+        assertFalse(response.getHeaderString("reason").isEmpty());
+        
         //delete
         Response deleteResponse = this.provider.client().target(location).request(MediaType.APPLICATION_JSON).delete();
         assertThat(deleteResponse.getStatus(), is(204));

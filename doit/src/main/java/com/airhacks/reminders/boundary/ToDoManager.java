@@ -45,6 +45,10 @@ public class ToDoManager {
 
     public ToDo updateStatus(long id, boolean done) {
         ToDo todo = this.findById(id);
+        if(todo == null)
+        {
+            return null;
+        }
         todo.setDone(done);
         return todo;
     }

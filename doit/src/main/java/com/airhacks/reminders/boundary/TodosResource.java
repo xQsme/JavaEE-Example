@@ -59,10 +59,19 @@ public class TodosResource
     
     @PUT
     @Path("{id}/status")
-    public ToDo status(@PathParam("id") long id, JsonObject statusUpdate)
+    public Response status(@PathParam("id") long id, JsonObject statusUpdate)
     {
+        if(!statusUpdate.containsKey("done"))
+        {
+            return Response.status(Response.Status.BAD_REQUEST).header("reason", "JSON should contain field done").build();
+        }
         boolean done = statusUpdate.getBoolean("done");
-        return manager.updateStatus(id,done);
+        ToDo todo = manager.updateStatus(id,done);
+        if(todo == null)
+        {
+            return Response.status(Response.Status.BAD_REQUEST).header("reason", "todo with id " + id + " does not exist").build();
+        }
+        return Response.ok(todo).build();
     }
     
     @GET
