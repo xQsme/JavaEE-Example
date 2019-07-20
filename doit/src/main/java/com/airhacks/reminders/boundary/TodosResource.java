@@ -35,43 +35,10 @@ public class TodosResource
     @Inject
     ToDoManager manager;
     
-    @GET
     @Path("{id}")
-    public ToDo find(@PathParam("id") long id)
+    public TodoResource find(@PathParam("id") long id)
     {
-        return manager.findById(id);
-    }
-    
-    @DELETE
-    @Path("{id}")
-    public void delete(@PathParam("id") long id)
-    {
-        manager.delete(id);
-    }
-    
-    @PUT
-    @Path("{id}")
-    public ToDo update(@PathParam("id") long id, ToDo todo)
-    {
-        todo.setId(id);
-        return manager.save(todo);
-    }
-    
-    @PUT
-    @Path("{id}/status")
-    public Response status(@PathParam("id") long id, JsonObject statusUpdate)
-    {
-        if(!statusUpdate.containsKey("done"))
-        {
-            return Response.status(Response.Status.BAD_REQUEST).header("reason", "JSON should contain field done").build();
-        }
-        boolean done = statusUpdate.getBoolean("done");
-        ToDo todo = manager.updateStatus(id,done);
-        if(todo == null)
-        {
-            return Response.status(Response.Status.BAD_REQUEST).header("reason", "todo with id " + id + " does not exist").build();
-        }
-        return Response.ok(todo).build();
+        return new TodoResource(id, manager);
     }
     
     @GET

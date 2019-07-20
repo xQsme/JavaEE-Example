@@ -9,6 +9,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.NamedQuery;
+import javax.persistence.Version;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlRootElement;
@@ -35,6 +36,9 @@ public class ToDo {
     private int priority;
     
     private boolean done;
+    
+    @Version
+    private long version;
 
     public ToDo(String caption, String description, int priority) {
         this.caption = caption;
@@ -83,6 +87,14 @@ public class ToDo {
 
     public void setDone(boolean done) {
         this.done = done;
+    }
+
+    public long getVersion() {
+        return version;
+    }
+
+    public void setVersion(long version) {
+        this.version = version;
     }
    
 }

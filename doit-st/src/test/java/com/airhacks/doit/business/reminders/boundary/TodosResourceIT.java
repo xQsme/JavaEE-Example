@@ -37,7 +37,7 @@ public class TodosResourceIT {
     {
         //create
         JsonObjectBuilder todoBuilder = Json.createObjectBuilder();
-        JsonObject todoToCreate = todoBuilder.add("caption", "implement").add("description", "REST").add("priority", (42)).build();
+        JsonObject todoToCreate = todoBuilder.add("caption", "implement").add("description", "REST").add("priority", 42).build();
         Response postResponse = this.provider.target().request().post(Entity.json(todoToCreate));
         assertThat(postResponse.getStatus(), is(201));
         String location = postResponse.getHeaderString("Location");
@@ -58,8 +58,9 @@ public class TodosResourceIT {
         assertTrue(dedicatedTodo.getString("caption").contains("implement"));
 
         //update
-        JsonObject todoToUpdate = todoBuilder.add("caption", "implemented").add("description", "REST done").add("priority", (0)).build();
-        this.provider.client().target(location).request(MediaType.APPLICATION_JSON).put(Entity.json(todoToUpdate));
+        JsonObject todoToUpdate = todoBuilder.add("caption", "implemented").add("description", "REST done").add("priority", 0).build();
+        response = this.provider.client().target(location).request(MediaType.APPLICATION_JSON).put(Entity.json(todoToUpdate));
+        assertThat(response.getStatus(), is(200));
         
         //find again
         JsonObject updatedTodo = this.provider.client().target(location).request(MediaType.APPLICATION_JSON).get(JsonObject.class);
