@@ -56,9 +56,8 @@ public class TodosResourceIT {
         //get specific
         JsonObject dedicatedTodo = this.provider.client().target(location).request(MediaType.APPLICATION_JSON).get(JsonObject.class);
         assertTrue(dedicatedTodo.getString("caption").contains("implement"));
-
         //update
-        JsonObject todoToUpdate = todoBuilder.add("caption", "implemented").add("description", "REST done").add("priority", 0).build();
+        JsonObject todoToUpdate = todoBuilder.add("caption", "implemented").add("version", 1).build();
         response = this.provider.client().target(location).request(MediaType.APPLICATION_JSON).put(Entity.json(todoToUpdate));
         assertThat(response.getStatus(), is(200));
         
