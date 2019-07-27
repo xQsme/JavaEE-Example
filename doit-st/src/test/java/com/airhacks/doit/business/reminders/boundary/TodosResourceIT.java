@@ -11,16 +11,12 @@ import javax.json.Json;
 import javax.json.JsonArray;
 import javax.json.JsonObject;
 import javax.json.JsonObjectBuilder;
-import javax.ws.rs.client.Client;
-import javax.ws.rs.client.ClientBuilder;
 import javax.ws.rs.client.Entity;
-import javax.ws.rs.client.WebTarget;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import static org.hamcrest.CoreMatchers.is;
 import org.junit.Test;
 import static org.junit.Assert.*;
-import org.junit.Before;
 import org.junit.Rule;
 
 /**
@@ -56,10 +52,17 @@ public class TodosResourceIT {
         //get specific
         JsonObject dedicatedTodo = this.provider.client().target(location).request(MediaType.APPLICATION_JSON).get(JsonObject.class);
         assertTrue(dedicatedTodo.getString("caption").contains("implement"));
+        
         //update
         JsonObject todoToUpdate = todoBuilder.add("caption", "implemented").add("version", 1).build();
         response = this.provider.client().target(location).request(MediaType.APPLICATION_JSON).put(Entity.json(todoToUpdate));
         assertThat(response.getStatus(), is(200));
+        
+        //update again
+        todoToUpdate = todoBuilder.add("caption", "implemented").add("priority", 0).add("version", 1).build();
+        response = this.provider.client().target(location).request(MediaType.APPLICATION_JSON).put(Entity.json(todoToUpdate));
+        assertThat(response.getStatus(), is(409));
+        assertNotNull(response.getHeaderString("cause"));
         
         //find again
         JsonObject updatedTodo = this.provider.client().target(location).request(MediaType.APPLICATION_JSON).get(JsonObject.class);
@@ -88,5 +91,15 @@ public class TodosResourceIT {
         //delete
         Response deleteResponse = this.provider.client().target(location).request(MediaType.APPLICATION_JSON).delete();
         assertThat(deleteResponse.getStatus(), is(204));
+    }
+    
+    @Test
+    public void createToDoWIthoutCaption()
+    {
+        //create
+        JsonObjectBuilder todoBuilder = Json.createObjectBuilder();
+        JsonObject todoToCreate = todoBuilder.add("description", "REST").add("priority", 42).build();
+        Response postResponse = this.provider.target().request().post(Entity.json(todoToCreate));
+        assertThat(postResponse.getStatus(), is(400));
     }
 }

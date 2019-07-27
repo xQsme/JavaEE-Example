@@ -12,6 +12,7 @@ import java.util.List;
 import javax.ejb.Stateless;
 import javax.inject.Inject;
 import javax.json.JsonObject;
+import javax.validation.Valid;
 import javax.ws.rs.DELETE;
 import javax.ws.rs.GET;
 import javax.ws.rs.POST;
@@ -47,7 +48,7 @@ public class TodosResource
     }
     
     @POST
-    public Response save(ToDo todo, @Context UriInfo info){
+    public Response save(@Valid ToDo todo, @Context UriInfo info){
         ToDo saved = manager.save(todo);
         long id = saved.getId();
         URI uri = info.getAbsolutePathBuilder().path("/"+id).build();

@@ -1,7 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="doit:war" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a0246fd-ff27-4943-9843-257aaf22659c" name="Default Changelist" comment="" />
+    <list default="true" id="7a0246fd-ff27-4943-9843-257aaf22659c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../doit-st/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doit-st/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doit-st/.idea/libraries/Maven__com_airhacks_rulz_jaxrsclient_0_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doit-st/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doit-st/.idea/libraries/Maven__javax_ws_rs_javax_ws_rs_api_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doit-st/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doit-st/.idea/libraries/Maven__org_glassfish_hk2_external_aopalliance_repackaged_2_4_0_b10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doit-st/.idea/libraries/Maven__org_glassfish_hk2_external_javax_inject_2_4_0_b10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doit-st/.idea/libraries/Maven__org_glassfish_hk2_hk2_api_2_4_0_b10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doit-st/.idea/libraries/Maven__org_glassfish_hk2_hk2_locator_2_4_0_b10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doit-st/.idea/libraries/Maven__org_glassfish_hk2_hk2_utils_2_4_0_b10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doit-st/.idea/libraries/Maven__org_glassfish_hk2_osgi_resource_locator_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doit-st/.idea/libraries/Maven__org_glassfish_javax_json_1_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doit-st/.idea/libraries/Maven__org_glassfish_jersey_bundles_repackaged_jersey_guava_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doit-st/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_client_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doit-st/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_common_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doit-st/.idea/libraries/Maven__org_glassfish_jersey_media_jersey_media_json_processing_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doit-st/.idea/libraries/Maven__org_glassfish_jsonp_jaxrs_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doit-st/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doit-st/.idea/libraries/Maven__org_javassist_javassist_3_18_1_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doit-st/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doit-st/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doit-st/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doit-st/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../doit-st/doit-st.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit-st/src/test/java/com/airhacks/doit/business/reminders/boundary/TodosResourceIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/../doit-st/src/test/java/com/airhacks/doit/business/reminders/boundary/TodosResourceIT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit-st/target/surefire-reports/TEST-com.airhacks.doit.business.reminders.boundary.TodosResourceIT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../doit-st/target/surefire-reports/TEST-com.airhacks.doit.business.reminders.boundary.TodosResourceIT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit-st/target/surefire-reports/com.airhacks.doit.business.reminders.boundary.TodosResourceIT.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../doit-st/target/surefire-reports/com.airhacks.doit.business.reminders.boundary.TodosResourceIT.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit-st/target/test-classes/com/airhacks/doit/business/reminders/boundary/TodosResourceIT.class" beforeDir="false" afterPath="$PROJECT_DIR$/../doit-st/target/test-classes/com/airhacks/doit/business/reminders/boundary/TodosResourceIT.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/doit.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nb-configuration.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nb-configuration.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/airhacks/reminders/boundary/TodosResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/airhacks/reminders/boundary/TodosResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/airhacks/reminders/entity/ToDo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/airhacks/reminders/entity/ToDo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/airhacks/reminders/boundary/ToDoManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/airhacks/reminders/boundary/ToDoManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/airhacks/reminders/boundary/TodoResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/airhacks/reminders/boundary/TodoResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/airhacks/reminders/boundary/TodosResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/airhacks/reminders/boundary/TodosResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/airhacks/reminders/entity/ToDo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/airhacks/reminders/entity/ToDo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/doit.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/doit.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/doit/WEB-INF/classes/com/airhacks/reminders/boundary/ToDoManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/doit/WEB-INF/classes/com/airhacks/reminders/boundary/ToDoManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/doit/WEB-INF/classes/com/airhacks/reminders/boundary/TodoResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/doit/WEB-INF/classes/com/airhacks/reminders/boundary/TodoResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/doit/WEB-INF/classes/com/airhacks/reminders/boundary/TodosResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/doit/WEB-INF/classes/com/airhacks/reminders/boundary/TodosResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/doit/WEB-INF/classes/com/airhacks/reminders/entity/ToDo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/doit/WEB-INF/classes/com/airhacks/reminders/entity/ToDo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/doit/gfv3ee6.dpf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -10,30 +64,48 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/reminders/boundary/TodosResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="285">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/EJBExceptionMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="4" />
     <option name="y" value="26" />
     <option name="width" value="1276" />
     <option name="height" value="1354" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -57,34 +129,17 @@
               <item name="doit" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="doit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="doit" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="airhacks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="doit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="doit" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="airhacks" type="462c0819:PsiDirectoryNode" />
-              <item name="boundary" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -108,8 +163,79 @@
     </option>
   </component>
   <component name="RunManager">
+    <configuration name="JBoss 16.0.0.Final" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 16.0.0.Final" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="doit:war">
+          <settings />
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="SERVER" />
+        <option name="BINDING_SET_NAME" value="" />
+        <option name="DOMAIN" value="false" />
+        <option name="SERVER_GROUP" />
+        <option name="USERNAME" value="" />
+        <option name="CREDENTIAL_ALIAS" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="JBoss" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="49335" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="doit:war" />
+        </option>
+      </method>
+    </configuration>
     <configuration default="true" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 16.0.0.Final" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/doit/" />
       <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -180,6 +306,25 @@
         </option>
       </method>
     </configuration>
+    <configuration default="true" type="JBossConfiguration" factoryName="Remote" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="LOCAL" value="false" />
+      <deployment />
+      <server-settings>
+        <data>
+          <option name="serverGroup" value="" />
+          <option name="transportHostId" />
+          <server-group />
+        </data>
+      </server-settings>
+      <predefined_log_file enabled="true" id="JBoss" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="50438" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -192,50 +337,54 @@
       <option name="presentableId" value="Default" />
       <updated>1561165041310</updated>
       <workItem from="1561165043793" duration="124000" />
+      <workItem from="1564248736655" duration="481000" />
+      <workItem from="1564249789964" duration="568000" />
+      <workItem from="1564250718727" duration="12000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124000" />
+    <option name="totallyTimeSpent" value="1185000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="26" width="1276" height="1354" extended-state="0" />
+    <frame x="4" y="26" width="2552" height="1354" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19692059" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.119521916" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3296355" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="JSF" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="CDI" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Application Servers" order="14" weight="0.3296355" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="JSF" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="CDI" order="10" />
+      <window_info anchor="right" id="Bean Validation" order="11" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,8 +393,15 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/reminders/boundary/TodosResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="285">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/EJBExceptionMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
         </state>
       </provider>
     </entry>
