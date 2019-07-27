@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="1" name="com.airhacks.doit.business.reminders.boundary.TodosResourceIT" time="0.181" errors="0" skipped="0">
+<testsuite tests="1" failures="1" name="com.airhacks.doit.business.reminders.boundary.TodosResourceIT" time="0.169" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="12.0.1+12"/>
@@ -12,7 +12,7 @@
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="user.country" value="PT"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="test" value="com.airhacks.doit.business.reminders.boundary.TodosResourceIT#createToDoWIthoutCaption"/>
+    <property name="test" value="com.airhacks.doit.business.reminders.boundary.TodosResourceIT#createToDoWithHighPriorityWithoutDescription"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="user.dir" value="/Users/jabroni/NetBeansProjects/doit-st"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
@@ -42,7 +42,7 @@
     <property name="java.class.path" value="/Applications/NetBeans/NetBeans 11.app/Contents/Resources/NetBeans/java/maven/boot/plexus-classworlds-2.5.2.jar"/>
     <property name="java.vm.specification.version" value="12"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=com.airhacks.doit.business.reminders.boundary.TodosResourceIT#createToDoWIthoutCaption -Dmaven.ext.class.path=/Applications/NetBeans/NetBeans 11.app/Contents/Resources/NetBeans/java/maven-nblib/netbeans-eventspy.jar surefire:test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=com.airhacks.doit.business.reminders.boundary.TodosResourceIT#createToDoWithHighPriorityWithoutDescription -Dmaven.ext.class.path=/Applications/NetBeans/NetBeans 11.app/Contents/Resources/NetBeans/java/maven-nblib/netbeans-eventspy.jar surefire:test"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-12.0.1.jdk/Contents/Home"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -59,16 +59,16 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase classname="com.airhacks.doit.business.reminders.boundary.TodosResourceIT" name="createToDoWIthoutCaption" time="0.181">
+  <testcase classname="com.airhacks.doit.business.reminders.boundary.TodosResourceIT" name="createToDoWithHighPriorityWithoutDescription" time="0.169">
     <failure message="
-Expected: is &lt;400&gt;
-     but: was &lt;500&gt;" type="java.lang.AssertionError">java.lang.AssertionError: 
-Expected: is &lt;400&gt;
-     but: was &lt;500&gt;
+Expected: is &lt;201&gt;
+     but: was &lt;400&gt;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: is &lt;201&gt;
+     but: was &lt;400&gt;
 	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
 	at org.junit.Assert.assertThat(Assert.java:956)
 	at org.junit.Assert.assertThat(Assert.java:923)
-	at com.airhacks.doit.business.reminders.boundary.TodosResourceIT.createToDoWIthoutCaption(TodosResourceIT.java:103)
+	at com.airhacks.doit.business.reminders.boundary.TodosResourceIT.createToDoWithHighPriorityWithoutDescription(TodosResourceIT.java:113)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -101,7 +101,7 @@ Expected: is &lt;400&gt;
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </failure>
-    <system-err>Jul 27, 2019 6:44:01 PM org.glassfish.jersey.internal.Errors logErrors
+    <system-err>Jul 27, 2019 10:23:28 PM org.glassfish.jersey.internal.Errors logErrors
 WARNING: The following warnings have been detected: WARNING: HK2 service reification failed for [org.glassfish.jersey.message.internal.DataSourceProvider] with an exception:
 MultiException stack 1 of 2
 java.lang.NoClassDefFoundError: javax/activation/DataSource
@@ -170,7 +170,7 @@ java.lang.NoClassDefFoundError: javax/activation/DataSource
 	at org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:668)
 	at org.glassfish.jersey.client.JerseyInvocation$Builder.method(JerseyInvocation.java:428)
 	at org.glassfish.jersey.client.JerseyInvocation$Builder.post(JerseyInvocation.java:334)
-	at com.airhacks.doit.business.reminders.boundary.TodosResourceIT.createToDoWIthoutCaption(TodosResourceIT.java:102)
+	at com.airhacks.doit.business.reminders.boundary.TodosResourceIT.createToDoWithHighPriorityWithoutDescription(TodosResourceIT.java:112)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -210,20 +210,20 @@ Caused by: java.lang.ClassNotFoundException: javax.activation.DataSource
 MultiException stack 2 of 2
 java.lang.IllegalArgumentException: Errors were discovered while reifying SystemDescriptor(
 	implementation=org.glassfish.jersey.message.internal.DataSourceProvider
-	contracts={javax.ws.rs.ext.MessageBodyWriter,javax.ws.rs.ext.MessageBodyReader}
+	contracts={javax.ws.rs.ext.MessageBodyReader,javax.ws.rs.ext.MessageBodyWriter}
 	scope=javax.inject.Singleton
 	qualifiers={}
 	descriptorType=CLASS
 	descriptorVisibility=NORMAL
 	metadata=
 	rank=0
-	loader=org.glassfish.hk2.utilities.binding.AbstractBinder$2@55b53d44
+	loader=org.glassfish.hk2.utilities.binding.AbstractBinder$2@482bce4f
 	proxiable=null
 	proxyForSameScope=null
 	analysisName=null
 	id=11
 	locatorId=1
-	identityHashCode=1210830415
+	identityHashCode=912672706
 	reified=false)
 	at org.jvnet.hk2.internal.SystemDescriptor.reify(SystemDescriptor.java:689)
 	at org.jvnet.hk2.internal.ServiceLocatorImpl.reifyDescriptor(ServiceLocatorImpl.java:416)
@@ -276,7 +276,7 @@ java.lang.IllegalArgumentException: Errors were discovered while reifying System
 	at org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:668)
 	at org.glassfish.jersey.client.JerseyInvocation$Builder.method(JerseyInvocation.java:428)
 	at org.glassfish.jersey.client.JerseyInvocation$Builder.post(JerseyInvocation.java:334)
-	at com.airhacks.doit.business.reminders.boundary.TodosResourceIT.createToDoWIthoutCaption(TodosResourceIT.java:102)
+	at com.airhacks.doit.business.reminders.boundary.TodosResourceIT.createToDoWithHighPriorityWithoutDescription(TodosResourceIT.java:112)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -377,7 +377,7 @@ java.lang.NoClassDefFoundError: javax/activation/DataSource
 	at org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:668)
 	at org.glassfish.jersey.client.JerseyInvocation$Builder.method(JerseyInvocation.java:428)
 	at org.glassfish.jersey.client.JerseyInvocation$Builder.post(JerseyInvocation.java:334)
-	at com.airhacks.doit.business.reminders.boundary.TodosResourceIT.createToDoWIthoutCaption(TodosResourceIT.java:102)
+	at com.airhacks.doit.business.reminders.boundary.TodosResourceIT.createToDoWithHighPriorityWithoutDescription(TodosResourceIT.java:112)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -417,20 +417,20 @@ Caused by: java.lang.ClassNotFoundException: javax.activation.DataSource
 MultiException stack 2 of 2
 java.lang.IllegalArgumentException: Errors were discovered while reifying SystemDescriptor(
 	implementation=org.glassfish.jersey.message.internal.DataSourceProvider
-	contracts={javax.ws.rs.ext.MessageBodyWriter,javax.ws.rs.ext.MessageBodyReader}
+	contracts={javax.ws.rs.ext.MessageBodyReader,javax.ws.rs.ext.MessageBodyWriter}
 	scope=javax.inject.Singleton
 	qualifiers={}
 	descriptorType=CLASS
 	descriptorVisibility=NORMAL
 	metadata=
 	rank=0
-	loader=org.glassfish.hk2.utilities.binding.AbstractBinder$2@55b53d44
+	loader=org.glassfish.hk2.utilities.binding.AbstractBinder$2@482bce4f
 	proxiable=null
 	proxyForSameScope=null
 	analysisName=null
 	id=11
 	locatorId=1
-	identityHashCode=1210830415
+	identityHashCode=912672706
 	reified=false)
 	at org.jvnet.hk2.internal.SystemDescriptor.reify(SystemDescriptor.java:689)
 	at org.jvnet.hk2.internal.ServiceLocatorImpl.reifyDescriptor(ServiceLocatorImpl.java:416)
@@ -483,7 +483,7 @@ java.lang.IllegalArgumentException: Errors were discovered while reifying System
 	at org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:668)
 	at org.glassfish.jersey.client.JerseyInvocation$Builder.method(JerseyInvocation.java:428)
 	at org.glassfish.jersey.client.JerseyInvocation$Builder.post(JerseyInvocation.java:334)
-	at com.airhacks.doit.business.reminders.boundary.TodosResourceIT.createToDoWIthoutCaption(TodosResourceIT.java:102)
+	at com.airhacks.doit.business.reminders.boundary.TodosResourceIT.createToDoWithHighPriorityWithoutDescription(TodosResourceIT.java:112)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -584,7 +584,7 @@ java.lang.NoClassDefFoundError: javax/activation/DataSource
 	at org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:668)
 	at org.glassfish.jersey.client.JerseyInvocation$Builder.method(JerseyInvocation.java:428)
 	at org.glassfish.jersey.client.JerseyInvocation$Builder.post(JerseyInvocation.java:334)
-	at com.airhacks.doit.business.reminders.boundary.TodosResourceIT.createToDoWIthoutCaption(TodosResourceIT.java:102)
+	at com.airhacks.doit.business.reminders.boundary.TodosResourceIT.createToDoWithHighPriorityWithoutDescription(TodosResourceIT.java:112)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -624,20 +624,20 @@ Caused by: java.lang.ClassNotFoundException: javax.activation.DataSource
 MultiException stack 2 of 2
 java.lang.IllegalArgumentException: Errors were discovered while reifying SystemDescriptor(
 	implementation=org.glassfish.jersey.message.internal.DataSourceProvider
-	contracts={javax.ws.rs.ext.MessageBodyWriter,javax.ws.rs.ext.MessageBodyReader}
+	contracts={javax.ws.rs.ext.MessageBodyReader,javax.ws.rs.ext.MessageBodyWriter}
 	scope=javax.inject.Singleton
 	qualifiers={}
 	descriptorType=CLASS
 	descriptorVisibility=NORMAL
 	metadata=
 	rank=0
-	loader=org.glassfish.hk2.utilities.binding.AbstractBinder$2@55b53d44
+	loader=org.glassfish.hk2.utilities.binding.AbstractBinder$2@482bce4f
 	proxiable=null
 	proxyForSameScope=null
 	analysisName=null
 	id=11
 	locatorId=1
-	identityHashCode=1210830415
+	identityHashCode=912672706
 	reified=false)
 	at org.jvnet.hk2.internal.SystemDescriptor.reify(SystemDescriptor.java:689)
 	at org.jvnet.hk2.internal.ServiceLocatorImpl.reifyDescriptor(ServiceLocatorImpl.java:416)
@@ -690,7 +690,7 @@ java.lang.IllegalArgumentException: Errors were discovered while reifying System
 	at org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:668)
 	at org.glassfish.jersey.client.JerseyInvocation$Builder.method(JerseyInvocation.java:428)
 	at org.glassfish.jersey.client.JerseyInvocation$Builder.post(JerseyInvocation.java:334)
-	at com.airhacks.doit.business.reminders.boundary.TodosResourceIT.createToDoWIthoutCaption(TodosResourceIT.java:102)
+	at com.airhacks.doit.business.reminders.boundary.TodosResourceIT.createToDoWithHighPriorityWithoutDescription(TodosResourceIT.java:112)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -791,7 +791,7 @@ java.lang.NoClassDefFoundError: javax/activation/DataSource
 	at org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:668)
 	at org.glassfish.jersey.client.JerseyInvocation$Builder.method(JerseyInvocation.java:428)
 	at org.glassfish.jersey.client.JerseyInvocation$Builder.post(JerseyInvocation.java:334)
-	at com.airhacks.doit.business.reminders.boundary.TodosResourceIT.createToDoWIthoutCaption(TodosResourceIT.java:102)
+	at com.airhacks.doit.business.reminders.boundary.TodosResourceIT.createToDoWithHighPriorityWithoutDescription(TodosResourceIT.java:112)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -831,20 +831,20 @@ Caused by: java.lang.ClassNotFoundException: javax.activation.DataSource
 MultiException stack 2 of 2
 java.lang.IllegalArgumentException: Errors were discovered while reifying SystemDescriptor(
 	implementation=org.glassfish.jersey.message.internal.DataSourceProvider
-	contracts={javax.ws.rs.ext.MessageBodyWriter,javax.ws.rs.ext.MessageBodyReader}
+	contracts={javax.ws.rs.ext.MessageBodyReader,javax.ws.rs.ext.MessageBodyWriter}
 	scope=javax.inject.Singleton
 	qualifiers={}
 	descriptorType=CLASS
 	descriptorVisibility=NORMAL
 	metadata=
 	rank=0
-	loader=org.glassfish.hk2.utilities.binding.AbstractBinder$2@55b53d44
+	loader=org.glassfish.hk2.utilities.binding.AbstractBinder$2@482bce4f
 	proxiable=null
 	proxyForSameScope=null
 	analysisName=null
 	id=11
 	locatorId=1
-	identityHashCode=1210830415
+	identityHashCode=912672706
 	reified=false)
 	at org.jvnet.hk2.internal.SystemDescriptor.reify(SystemDescriptor.java:689)
 	at org.jvnet.hk2.internal.ServiceLocatorImpl.reifyDescriptor(ServiceLocatorImpl.java:416)
@@ -897,7 +897,7 @@ java.lang.IllegalArgumentException: Errors were discovered while reifying System
 	at org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:668)
 	at org.glassfish.jersey.client.JerseyInvocation$Builder.method(JerseyInvocation.java:428)
 	at org.glassfish.jersey.client.JerseyInvocation$Builder.post(JerseyInvocation.java:334)
-	at com.airhacks.doit.business.reminders.boundary.TodosResourceIT.createToDoWIthoutCaption(TodosResourceIT.java:102)
+	at com.airhacks.doit.business.reminders.boundary.TodosResourceIT.createToDoWithHighPriorityWithoutDescription(TodosResourceIT.java:112)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -998,7 +998,7 @@ java.lang.NoClassDefFoundError: javax/activation/DataSource
 	at org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:668)
 	at org.glassfish.jersey.client.JerseyInvocation$Builder.method(JerseyInvocation.java:428)
 	at org.glassfish.jersey.client.JerseyInvocation$Builder.post(JerseyInvocation.java:334)
-	at com.airhacks.doit.business.reminders.boundary.TodosResourceIT.createToDoWIthoutCaption(TodosResourceIT.java:102)
+	at com.airhacks.doit.business.reminders.boundary.TodosResourceIT.createToDoWithHighPriorityWithoutDescription(TodosResourceIT.java:112)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1038,20 +1038,20 @@ Caused by: java.lang.ClassNotFoundException: javax.activation.DataSource
 MultiException stack 2 of 2
 java.lang.IllegalArgumentException: Errors were discovered while reifying SystemDescriptor(
 	implementation=org.glassfish.jersey.message.internal.DataSourceProvider
-	contracts={javax.ws.rs.ext.MessageBodyWriter,javax.ws.rs.ext.MessageBodyReader}
+	contracts={javax.ws.rs.ext.MessageBodyReader,javax.ws.rs.ext.MessageBodyWriter}
 	scope=javax.inject.Singleton
 	qualifiers={}
 	descriptorType=CLASS
 	descriptorVisibility=NORMAL
 	metadata=
 	rank=0
-	loader=org.glassfish.hk2.utilities.binding.AbstractBinder$2@55b53d44
+	loader=org.glassfish.hk2.utilities.binding.AbstractBinder$2@482bce4f
 	proxiable=null
 	proxyForSameScope=null
 	analysisName=null
 	id=11
 	locatorId=1
-	identityHashCode=1210830415
+	identityHashCode=912672706
 	reified=false)
 	at org.jvnet.hk2.internal.SystemDescriptor.reify(SystemDescriptor.java:689)
 	at org.jvnet.hk2.internal.ServiceLocatorImpl.reifyDescriptor(ServiceLocatorImpl.java:416)
@@ -1104,7 +1104,7 @@ java.lang.IllegalArgumentException: Errors were discovered while reifying System
 	at org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:668)
 	at org.glassfish.jersey.client.JerseyInvocation$Builder.method(JerseyInvocation.java:428)
 	at org.glassfish.jersey.client.JerseyInvocation$Builder.post(JerseyInvocation.java:334)
-	at com.airhacks.doit.business.reminders.boundary.TodosResourceIT.createToDoWIthoutCaption(TodosResourceIT.java:102)
+	at com.airhacks.doit.business.reminders.boundary.TodosResourceIT.createToDoWithHighPriorityWithoutDescription(TodosResourceIT.java:112)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1205,7 +1205,7 @@ java.lang.NoClassDefFoundError: javax/activation/DataSource
 	at org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:668)
 	at org.glassfish.jersey.client.JerseyInvocation$Builder.method(JerseyInvocation.java:428)
 	at org.glassfish.jersey.client.JerseyInvocation$Builder.post(JerseyInvocation.java:334)
-	at com.airhacks.doit.business.reminders.boundary.TodosResourceIT.createToDoWIthoutCaption(TodosResourceIT.java:102)
+	at com.airhacks.doit.business.reminders.boundary.TodosResourceIT.createToDoWithHighPriorityWithoutDescription(TodosResourceIT.java:112)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1245,20 +1245,20 @@ Caused by: java.lang.ClassNotFoundException: javax.activation.DataSource
 MultiException stack 2 of 2
 java.lang.IllegalArgumentException: Errors were discovered while reifying SystemDescriptor(
 	implementation=org.glassfish.jersey.message.internal.DataSourceProvider
-	contracts={javax.ws.rs.ext.MessageBodyWriter,javax.ws.rs.ext.MessageBodyReader}
+	contracts={javax.ws.rs.ext.MessageBodyReader,javax.ws.rs.ext.MessageBodyWriter}
 	scope=javax.inject.Singleton
 	qualifiers={}
 	descriptorType=CLASS
 	descriptorVisibility=NORMAL
 	metadata=
 	rank=0
-	loader=org.glassfish.hk2.utilities.binding.AbstractBinder$2@55b53d44
+	loader=org.glassfish.hk2.utilities.binding.AbstractBinder$2@482bce4f
 	proxiable=null
 	proxyForSameScope=null
 	analysisName=null
 	id=11
 	locatorId=1
-	identityHashCode=1210830415
+	identityHashCode=912672706
 	reified=false)
 	at org.jvnet.hk2.internal.SystemDescriptor.reify(SystemDescriptor.java:689)
 	at org.jvnet.hk2.internal.ServiceLocatorImpl.reifyDescriptor(ServiceLocatorImpl.java:416)
@@ -1311,7 +1311,7 @@ java.lang.IllegalArgumentException: Errors were discovered while reifying System
 	at org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:668)
 	at org.glassfish.jersey.client.JerseyInvocation$Builder.method(JerseyInvocation.java:428)
 	at org.glassfish.jersey.client.JerseyInvocation$Builder.post(JerseyInvocation.java:334)
-	at com.airhacks.doit.business.reminders.boundary.TodosResourceIT.createToDoWIthoutCaption(TodosResourceIT.java:102)
+	at com.airhacks.doit.business.reminders.boundary.TodosResourceIT.createToDoWithHighPriorityWithoutDescription(TodosResourceIT.java:112)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1412,7 +1412,7 @@ java.lang.NoClassDefFoundError: javax/activation/DataSource
 	at org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:668)
 	at org.glassfish.jersey.client.JerseyInvocation$Builder.method(JerseyInvocation.java:428)
 	at org.glassfish.jersey.client.JerseyInvocation$Builder.post(JerseyInvocation.java:334)
-	at com.airhacks.doit.business.reminders.boundary.TodosResourceIT.createToDoWIthoutCaption(TodosResourceIT.java:102)
+	at com.airhacks.doit.business.reminders.boundary.TodosResourceIT.createToDoWithHighPriorityWithoutDescription(TodosResourceIT.java:112)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1452,20 +1452,20 @@ Caused by: java.lang.ClassNotFoundException: javax.activation.DataSource
 MultiException stack 2 of 2
 java.lang.IllegalArgumentException: Errors were discovered while reifying SystemDescriptor(
 	implementation=org.glassfish.jersey.message.internal.DataSourceProvider
-	contracts={javax.ws.rs.ext.MessageBodyWriter,javax.ws.rs.ext.MessageBodyReader}
+	contracts={javax.ws.rs.ext.MessageBodyReader,javax.ws.rs.ext.MessageBodyWriter}
 	scope=javax.inject.Singleton
 	qualifiers={}
 	descriptorType=CLASS
 	descriptorVisibility=NORMAL
 	metadata=
 	rank=0
-	loader=org.glassfish.hk2.utilities.binding.AbstractBinder$2@55b53d44
+	loader=org.glassfish.hk2.utilities.binding.AbstractBinder$2@482bce4f
 	proxiable=null
 	proxyForSameScope=null
 	analysisName=null
 	id=11
 	locatorId=1
-	identityHashCode=1210830415
+	identityHashCode=912672706
 	reified=false)
 	at org.jvnet.hk2.internal.SystemDescriptor.reify(SystemDescriptor.java:689)
 	at org.jvnet.hk2.internal.ServiceLocatorImpl.reifyDescriptor(ServiceLocatorImpl.java:416)
@@ -1518,7 +1518,7 @@ java.lang.IllegalArgumentException: Errors were discovered while reifying System
 	at org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:668)
 	at org.glassfish.jersey.client.JerseyInvocation$Builder.method(JerseyInvocation.java:428)
 	at org.glassfish.jersey.client.JerseyInvocation$Builder.post(JerseyInvocation.java:334)
-	at com.airhacks.doit.business.reminders.boundary.TodosResourceIT.createToDoWIthoutCaption(TodosResourceIT.java:102)
+	at com.airhacks.doit.business.reminders.boundary.TodosResourceIT.createToDoWithHighPriorityWithoutDescription(TodosResourceIT.java:112)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1619,7 +1619,7 @@ java.lang.NoClassDefFoundError: javax/activation/DataSource
 	at org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:668)
 	at org.glassfish.jersey.client.JerseyInvocation$Builder.method(JerseyInvocation.java:428)
 	at org.glassfish.jersey.client.JerseyInvocation$Builder.post(JerseyInvocation.java:334)
-	at com.airhacks.doit.business.reminders.boundary.TodosResourceIT.createToDoWIthoutCaption(TodosResourceIT.java:102)
+	at com.airhacks.doit.business.reminders.boundary.TodosResourceIT.createToDoWithHighPriorityWithoutDescription(TodosResourceIT.java:112)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1659,20 +1659,20 @@ Caused by: java.lang.ClassNotFoundException: javax.activation.DataSource
 MultiException stack 2 of 2
 java.lang.IllegalArgumentException: Errors were discovered while reifying SystemDescriptor(
 	implementation=org.glassfish.jersey.message.internal.DataSourceProvider
-	contracts={javax.ws.rs.ext.MessageBodyWriter,javax.ws.rs.ext.MessageBodyReader}
+	contracts={javax.ws.rs.ext.MessageBodyReader,javax.ws.rs.ext.MessageBodyWriter}
 	scope=javax.inject.Singleton
 	qualifiers={}
 	descriptorType=CLASS
 	descriptorVisibility=NORMAL
 	metadata=
 	rank=0
-	loader=org.glassfish.hk2.utilities.binding.AbstractBinder$2@55b53d44
+	loader=org.glassfish.hk2.utilities.binding.AbstractBinder$2@482bce4f
 	proxiable=null
 	proxyForSameScope=null
 	analysisName=null
 	id=11
 	locatorId=1
-	identityHashCode=1210830415
+	identityHashCode=912672706
 	reified=false)
 	at org.jvnet.hk2.internal.SystemDescriptor.reify(SystemDescriptor.java:689)
 	at org.jvnet.hk2.internal.ServiceLocatorImpl.reifyDescriptor(ServiceLocatorImpl.java:416)
@@ -1725,7 +1725,7 @@ java.lang.IllegalArgumentException: Errors were discovered while reifying System
 	at org.glassfish.jersey.client.JerseyInvocation.invoke(JerseyInvocation.java:668)
 	at org.glassfish.jersey.client.JerseyInvocation$Builder.method(JerseyInvocation.java:428)
 	at org.glassfish.jersey.client.JerseyInvocation$Builder.post(JerseyInvocation.java:334)
-	at com.airhacks.doit.business.reminders.boundary.TodosResourceIT.createToDoWIthoutCaption(TodosResourceIT.java:102)
+	at com.airhacks.doit.business.reminders.boundary.TodosResourceIT.createToDoWithHighPriorityWithoutDescription(TodosResourceIT.java:112)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

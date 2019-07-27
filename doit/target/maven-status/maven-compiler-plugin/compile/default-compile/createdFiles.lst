@@ -1,5 +1,8 @@
+com/airhacks/ValidEntity.class
+com/airhacks/CrossCheckConstraintValidator.class
 com/airhacks/EJBExceptionMapper.class
 com/airhacks/JAXRSConfiguration.class
+com/airhacks/CrossCheck.class
 com/airhacks/reminders/entity/ToDo.class
 com/airhacks/reminders/boundary/TodosResource.class
 com/airhacks/reminders/boundary/TodoResource.class

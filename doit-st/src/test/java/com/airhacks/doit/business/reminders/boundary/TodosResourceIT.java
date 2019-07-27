@@ -54,12 +54,12 @@ public class TodosResourceIT {
         assertTrue(dedicatedTodo.getString("caption").contains("implement"));
         
         //update
-        JsonObject todoToUpdate = todoBuilder.add("caption", "implemented").add("version", 1).build();
+        JsonObject todoToUpdate = todoBuilder.add("caption", "implemented").build();
         response = this.provider.client().target(location).request(MediaType.APPLICATION_JSON).put(Entity.json(todoToUpdate));
         assertThat(response.getStatus(), is(200));
         
         //update again
-        todoToUpdate = todoBuilder.add("caption", "implemented").add("priority", 0).add("version", 1).build();
+        todoToUpdate = todoBuilder.add("caption", "implemented").add("priority", 0).build();
         response = this.provider.client().target(location).request(MediaType.APPLICATION_JSON).put(Entity.json(todoToUpdate));
         assertThat(response.getStatus(), is(409));
         assertNotNull(response.getHeaderString("cause"));
@@ -98,7 +98,17 @@ public class TodosResourceIT {
     {
         //create
         JsonObjectBuilder todoBuilder = Json.createObjectBuilder();
-        JsonObject todoToCreate = todoBuilder.add("description", "REST").add("priority", 42).build();
+        JsonObject todoToCreate = todoBuilder.add("description", "REST").add("priority", 10).build();
+        Response postResponse = this.provider.target().request().post(Entity.json(todoToCreate));
+        assertThat(postResponse.getStatus(), is(400));
+    }
+    
+    @Test
+    public void createToDoWithHighPriorityWithoutDescription()
+    {
+        //create
+        JsonObjectBuilder todoBuilder = Json.createObjectBuilder();
+        JsonObject todoToCreate = todoBuilder.add("caption", "REST").add("priority", 12).build();
         Response postResponse = this.provider.target().request().post(Entity.json(todoToCreate));
         assertThat(postResponse.getStatus(), is(400));
     }

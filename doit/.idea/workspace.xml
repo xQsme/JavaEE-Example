@@ -7,54 +7,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a0246fd-ff27-4943-9843-257aaf22659c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../doit-st/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doit-st/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doit-st/.idea/libraries/Maven__com_airhacks_rulz_jaxrsclient_0_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doit-st/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doit-st/.idea/libraries/Maven__javax_ws_rs_javax_ws_rs_api_2_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doit-st/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doit-st/.idea/libraries/Maven__org_glassfish_hk2_external_aopalliance_repackaged_2_4_0_b10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doit-st/.idea/libraries/Maven__org_glassfish_hk2_external_javax_inject_2_4_0_b10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doit-st/.idea/libraries/Maven__org_glassfish_hk2_hk2_api_2_4_0_b10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doit-st/.idea/libraries/Maven__org_glassfish_hk2_hk2_locator_2_4_0_b10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doit-st/.idea/libraries/Maven__org_glassfish_hk2_hk2_utils_2_4_0_b10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doit-st/.idea/libraries/Maven__org_glassfish_hk2_osgi_resource_locator_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doit-st/.idea/libraries/Maven__org_glassfish_javax_json_1_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doit-st/.idea/libraries/Maven__org_glassfish_jersey_bundles_repackaged_jersey_guava_2_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doit-st/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_client_2_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doit-st/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_common_2_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doit-st/.idea/libraries/Maven__org_glassfish_jersey_media_jersey_media_json_processing_2_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doit-st/.idea/libraries/Maven__org_glassfish_jsonp_jaxrs_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doit-st/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doit-st/.idea/libraries/Maven__org_javassist_javassist_3_18_1_GA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doit-st/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doit-st/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doit-st/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doit-st/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../doit-st/doit-st.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../doit-st/src/test/java/com/airhacks/doit/business/reminders/boundary/TodosResourceIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/../doit-st/src/test/java/com/airhacks/doit/business/reminders/boundary/TodosResourceIT.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../doit-st/target/surefire-reports/TEST-com.airhacks.doit.business.reminders.boundary.TodosResourceIT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../doit-st/target/surefire-reports/TEST-com.airhacks.doit.business.reminders.boundary.TodosResourceIT.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../doit-st/target/surefire-reports/com.airhacks.doit.business.reminders.boundary.TodosResourceIT.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../doit-st/target/surefire-reports/com.airhacks.doit.business.reminders.boundary.TodosResourceIT.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../doit-st/target/test-classes/com/airhacks/doit/business/reminders/boundary/TodosResourceIT.class" beforeDir="false" afterPath="$PROJECT_DIR$/../doit-st/target/test-classes/com/airhacks/doit/business/reminders/boundary/TodosResourceIT.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/doit.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nb-configuration.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nb-configuration.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/airhacks/reminders/boundary/TodosResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/airhacks/reminders/boundary/TodosResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/airhacks/reminders/entity/ToDo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/airhacks/reminders/entity/ToDo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/airhacks/reminders/boundary/ToDoManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/airhacks/reminders/boundary/ToDoManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/airhacks/reminders/boundary/TodoResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/airhacks/reminders/boundary/TodoResource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/airhacks/reminders/boundary/TodosResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/airhacks/reminders/boundary/TodosResource.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/airhacks/reminders/entity/ToDo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/airhacks/reminders/entity/ToDo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/resources/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/webapp/WEB-INF/beans.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/doit.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/doit.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/doit/WEB-INF/classes/com/airhacks/reminders/boundary/ToDoManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/doit/WEB-INF/classes/com/airhacks/reminders/boundary/ToDoManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/doit/WEB-INF/classes/com/airhacks/reminders/boundary/TodoResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/doit/WEB-INF/classes/com/airhacks/reminders/boundary/TodoResource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/doit/WEB-INF/classes/com/airhacks/reminders/boundary/TodosResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/doit/WEB-INF/classes/com/airhacks/reminders/boundary/TodosResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/doit/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/doit/WEB-INF/classes/.netbeans_automatic_build" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/doit/WEB-INF/classes/com/airhacks/reminders/entity/ToDo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/doit/WEB-INF/classes/com/airhacks/reminders/entity/ToDo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/doit/gfv3ee6.dpf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/doit/WEB-INF/classes/main/resources/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/doit/WEB-INF/classes/main/webapp/WEB-INF/beans.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -65,47 +39,100 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/reminders/boundary/TodosResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="379">
+              <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/EJBExceptionMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/JAXRSConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/EJBExceptionMapper.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/reminders/entity/ToDo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+            <state relative-caret-position="154">
+              <caret line="52" column="31" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#20#1" expanded="true" />
+                <element signature="e#2350#2351#0" expanded="true" />
+                <element signature="e#2422#2423#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/ValidEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Arquillian JUnit Test Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/test/java/TodosResourceIT.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/airhacks/reminders/boundary/TodosResourceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/airhacks/ValidEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/airhacks/reminders/entity/ToDo.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
     <option name="x" value="4" />
     <option name="y" value="26" />
     <option name="width" value="1276" />
     <option name="height" value="1354" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -129,12 +156,56 @@
               <item name="doit" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="airhacks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="airhacks" type="462c0819:PsiDirectoryNode" />
+              <item name="reminders" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="airhacks" type="462c0819:PsiDirectoryNode" />
+              <item name="reminders" type="462c0819:PsiDirectoryNode" />
+              <item name="boundary" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="airhacks" type="462c0819:PsiDirectoryNode" />
+              <item name="reminders" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -142,6 +213,9 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -149,6 +223,14 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.airhacks.reminders.boundary" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -162,7 +244,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JBoss Server.JBoss 16.0.0.Final">
     <configuration name="JBoss 16.0.0.Final" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 16.0.0.Final" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -325,6 +407,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TodosResourceTest.crud" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="doit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.airhacks.reminders.boundary.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.airhacks.reminders.boundary" />
+      <option name="MAIN_CLASS_NAME" value="com.airhacks.reminders.boundary.TodosResourceTest" />
+      <option name="METHOD_NAME" value="crud" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TodosResourceTest.crud" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -340,17 +443,29 @@
       <workItem from="1564248736655" duration="481000" />
       <workItem from="1564249789964" duration="568000" />
       <workItem from="1564250718727" duration="12000" />
+      <workItem from="1564259903195" duration="2386000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="TodosResourceTest_crud - 2019.07.27 at 22h 03m 31s.xml">
+      <configuration name="TodosResourceTest.crud" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TodosResourceTest_crud - 2019.07.27 at 22h 19m 02s.xml">
+      <configuration name="TodosResourceTest.crud" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TodosResourceTest_crud - 2019.07.27 at 22h 21m 07s.xml">
+      <configuration name="TodosResourceTest.crud" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1185000" />
+    <option name="totallyTimeSpent" value="3571000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="26" width="2552" height="1354" extended-state="6" />
+    <frame x="4" y="26" width="1276" height="1354" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.119521916" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24473257" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -360,7 +475,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3296355" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3296355" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -368,7 +483,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3296355" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" />
@@ -391,17 +506,72 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/reminders/boundary/TodosResource.java">
+    <entry file="file://$PROJECT_DIR$/target/classes/com/airhacks/reminders/boundary/ToDoManager.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state>
+          <folding>
+            <element signature="e#0#1281#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/EJBExceptionMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TodosResourceIT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="18" column="40" lean-forward="true" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/JAXRSConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/reminders/boundary/TodosResourceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="36" column="19" lean-forward="true" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/reminders/boundary/TodosResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/ValidEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/reminders/entity/ToDo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="52" column="31" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#20#1" expanded="true" />
+            <element signature="e#2350#2351#0" expanded="true" />
+            <element signature="e#2422#2423#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
