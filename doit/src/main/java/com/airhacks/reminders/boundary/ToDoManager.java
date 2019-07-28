@@ -5,9 +5,11 @@
  */
 package com.airhacks.reminders.boundary;
 
+import com.airhacks.logging.BoundaryLogger;
 import com.airhacks.reminders.entity.ToDo;
 import java.util.List;
 import javax.ejb.Stateless;
+import javax.interceptor.Interceptors;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityNotFoundException;
 import javax.persistence.PersistenceContext;
@@ -17,6 +19,7 @@ import javax.persistence.PersistenceContext;
  * @author jabroni
  */
 @Stateless
+@Interceptors(BoundaryLogger.class)
 public class ToDoManager {
 
     @PersistenceContext
