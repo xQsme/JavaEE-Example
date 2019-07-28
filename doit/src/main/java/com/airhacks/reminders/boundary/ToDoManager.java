@@ -5,7 +5,7 @@
  */
 package com.airhacks.reminders.boundary;
 
-import com.airhacks.logging.BoundaryLogger;
+import com.airhacks.logging.boundary.BoundaryLogger;
 import com.airhacks.reminders.entity.ToDo;
 import java.util.List;
 import javax.ejb.Stateless;

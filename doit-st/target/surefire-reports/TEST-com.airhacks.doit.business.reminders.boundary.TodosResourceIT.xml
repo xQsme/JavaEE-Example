@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="0" name="com.airhacks.doit.business.reminders.boundary.TodosResourceIT" time="0.677" errors="0" skipped="0">
+<testsuite tests="3" failures="0" name="com.airhacks.doit.business.reminders.boundary.TodosResourceIT" time="0.622" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="12.0.1+12"/>
@@ -59,7 +59,7 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase classname="com.airhacks.doit.business.reminders.boundary.TodosResourceIT" name="createToDoWithHighPriorityWithoutDescription" time="0.413"/>
-  <testcase classname="com.airhacks.doit.business.reminders.boundary.TodosResourceIT" name="createToDoWIthoutCaption" time="0.059"/>
-  <testcase classname="com.airhacks.doit.business.reminders.boundary.TodosResourceIT" name="crud" time="0.205"/>
+  <testcase classname="com.airhacks.doit.business.reminders.boundary.TodosResourceIT" name="createToDoWithHighPriorityWithoutDescription" time="0.334"/>
+  <testcase classname="com.airhacks.doit.business.reminders.boundary.TodosResourceIT" name="createToDoWIthoutCaption" time="0.058"/>
+  <testcase classname="com.airhacks.doit.business.reminders.boundary.TodosResourceIT" name="crud" time="0.23"/>
 </testsuite>

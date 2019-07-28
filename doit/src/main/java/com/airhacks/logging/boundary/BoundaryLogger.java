@@ -3,8 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.airhacks.logging;
+package com.airhacks.logging.boundary;
 
+import com.airhacks.monitoring.entity.CallEvent;
+
+import javax.enterprise.event.Event;
 import javax.inject.Inject;
 import javax.interceptor.AroundInvoke;
 import javax.interceptor.InvocationContext;
@@ -16,12 +19,20 @@ import javax.interceptor.InvocationContext;
 public class BoundaryLogger 
 {
     @Inject
-    LogSink LOG;
+    Event<CallEvent> monitoring;
     
     @AroundInvoke
     public Object logCall(InvocationContext ic) throws Exception
     {
-        LOG.log("--" + ic.getMethod());
-        return ic.proceed();
+        long start = System.currentTimeMillis();
+        try
+        {
+            return ic.proceed();
+        }
+        finally
+        {
+            long duration = System.currentTimeMillis() - start;
+            monitoring.fire(new CallEvent(ic.getMethod().getName(), duration));
+        }
     }
 }
