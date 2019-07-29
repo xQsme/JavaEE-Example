@@ -7,16 +7,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a0246fd-ff27-4943-9843-257aaf22659c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/airhacks/business/monitoring/boundary/BoundaryStatisticsResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit-st/target/surefire-reports/TEST-com.airhacks.doit.business.reminders.boundary.TodosResourceIT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../doit-st/target/surefire-reports/TEST-com.airhacks.doit.business.reminders.boundary.TodosResourceIT.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doit-st/target/surefire-reports/com.airhacks.doit.business.reminders.boundary.TodosResourceIT.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../doit-st/target/surefire-reports/com.airhacks.doit.business.reminders.boundary.TodosResourceIT.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/airhacks/logging/BoundaryLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/airhacks/logging/boundary/BoundaryLogger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/airhacks/logging/LogSink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/airhacks/logging/boundary/LogSink.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/airhacks/logging/LogSinkProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/airhacks/logging/boundary/LogSinkProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/airhacks/reminders/boundary/ToDoManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/airhacks/reminders/boundary/ToDoManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/airhacks/logging/BoundaryLogger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/airhacks/logging/LogSink.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/airhacks/logging/LogSinkProducer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/airhacks/reminders/boundary/ToDoManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/airhacks/reminders/boundary/ToDoManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nb-configuration.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nb-configuration.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/airhacks/CrossCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/airhacks/business/CrossCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/airhacks/CrossCheckConstraintValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/airhacks/business/CrossCheckConstraintValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/airhacks/EJBExceptionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/airhacks/business/EJBExceptionMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/airhacks/JAXRSConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/airhacks/business/JAXRSConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/airhacks/ValidEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/airhacks/business/ValidEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/airhacks/logging/boundary/BoundaryLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/airhacks/business/logging/boundary/BoundaryLogger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/airhacks/logging/boundary/LogSink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/airhacks/business/logging/boundary/LogSink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/airhacks/logging/boundary/LogSinkProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/airhacks/business/logging/boundary/LogSinkProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/airhacks/monitoring/boundary/MonitorSink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/airhacks/business/monitoring/boundary/MonitorSink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/airhacks/monitoring/entity/CallEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/airhacks/business/monitoring/entity/CallEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/airhacks/reminders/boundary/ToDoManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/airhacks/business/reminders/boundary/ToDoManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/airhacks/reminders/boundary/TodoResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/airhacks/business/reminders/boundary/TodoResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/airhacks/reminders/boundary/TodosResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/airhacks/business/reminders/boundary/TodosResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/airhacks/reminders/entity/ToDo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/airhacks/business/reminders/entity/ToDo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/airhacks/reminders/entity/ToDoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/airhacks/reminders/entity/ToDoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/airhacks/CrossCheck.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/airhacks/CrossCheckConstraintValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/airhacks/EJBExceptionMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/airhacks/JAXRSConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/airhacks/ValidEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/airhacks/logging/boundary/BoundaryLogger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/airhacks/logging/boundary/LogSink.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/airhacks/logging/boundary/LogSinkProducer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/airhacks/monitoring/boundary/MonitorSink.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/airhacks/monitoring/entity/CallEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/airhacks/reminders/boundary/ToDoManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/airhacks/reminders/boundary/TodoResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/airhacks/reminders/boundary/TodosResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/airhacks/reminders/entity/ToDo.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/doit.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/doit.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/doit/WEB-INF/classes/com/airhacks/monitoring/boundary/MonitorSink.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/doit/WEB-INF/classes/com/airhacks/monitoring/entity/CallEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/airhacks/reminders/entity/ToDoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/airhacks/reminders/entity/ToDoTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,63 +59,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/EJBExceptionMapper.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+            <state relative-caret-position="180">
+              <caret line="12" column="66" lean-forward="true" selection-start-line="12" selection-start-column="66" selection-end-line="12" selection-end-column="66" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/reminders/entity/ToDo.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/business/reminders/entity/ToDo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
-              <caret line="94" column="5" selection-start-line="94" selection-start-column="5" selection-end-line="94" selection-end-column="5" />
+            <state relative-caret-position="590">
+              <caret line="105" column="26" selection-start-line="105" selection-start-column="26" selection-end-line="105" selection-end-column="26" />
               <folding>
-                <element signature="e#2429#2430#0" expanded="true" />
-                <element signature="e#2499#2500#0" expanded="true" />
+                <element signature="e#0#20#1" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/reminders/boundary/ToDoManager.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/presentation/Index.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="49" column="38" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/logging/boundary/BoundaryLogger.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="22" column="4" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+            <state relative-caret-position="765">
+              <caret line="55" column="9" lean-forward="true" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#549#550#0" expanded="true" />
+                <element signature="e#585#586#0" expanded="true" />
+                <element signature="e#676#677#0" expanded="true" />
+                <element signature="e#697#698#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/monitoring/boundary/MonitorSink.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/monitoring/entity/CallEvent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
             </state>
           </provider>
         </entry>
@@ -96,34 +100,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/com/airhacks/reminders/entity/ToDoTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="480">
-              <caret line="37" selection-start-line="37" selection-end-line="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/CrossCheck.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/CrossCheckConstraintValidator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/ValidEntity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
             </state>
           </provider>
         </entry>
@@ -133,8 +110,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Arquillian JUnit Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -151,15 +128,20 @@
         <option value="$PROJECT_DIR$/src/main/java/com/airhacks/reminders/entity/ToDo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/airhacks/logging/BoundaryLogger.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/airhacks/logging/boundary/BoundaryLogger.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/airhacks/monitoring/entity/CallEvent.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/airhacks/EJBExceptionMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/airhacks/monitoring/entity/CallEvent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/airhacks/monitoring/boundary/MonitorSink.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/airhacks/monitoring/boundary/BoundaryStatisticsResource.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/airhacks/business/reminders/entity/ToDo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/airhacks/presentation/Index.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="4" />
     <option name="y" value="26" />
-    <option name="width" value="1275" />
+    <option name="width" value="1276" />
     <option name="height" value="1354" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -170,8 +152,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -212,7 +192,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="airhacks" type="462c0819:PsiDirectoryNode" />
-              <item name="boundary" type="462c0819:PsiDirectoryNode" />
+              <item name="business" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="doit" type="b2602c69:ProjectViewProjectNode" />
@@ -221,35 +201,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="airhacks" type="462c0819:PsiDirectoryNode" />
-              <item name="monitoring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="doit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="doit" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="airhacks" type="462c0819:PsiDirectoryNode" />
-              <item name="monitoring" type="462c0819:PsiDirectoryNode" />
-              <item name="boundary" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="doit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="doit" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="airhacks" type="462c0819:PsiDirectoryNode" />
-              <item name="monitoring" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="doit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="doit" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="airhacks" type="462c0819:PsiDirectoryNode" />
+              <item name="business" type="462c0819:PsiDirectoryNode" />
               <item name="reminders" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -259,18 +211,25 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="airhacks" type="462c0819:PsiDirectoryNode" />
-              <item name="reminders" type="462c0819:PsiDirectoryNode" />
-              <item name="boundary" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="doit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="doit" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="airhacks" type="462c0819:PsiDirectoryNode" />
+              <item name="business" type="462c0819:PsiDirectoryNode" />
               <item name="reminders" type="462c0819:PsiDirectoryNode" />
               <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="airhacks" type="462c0819:PsiDirectoryNode" />
+              <item name="presentation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="doit" type="b2602c69:ProjectViewProjectNode" />
@@ -327,6 +286,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -367,7 +328,7 @@
   <component name="RunManager" selected="JBoss Server.JBoss 16.0.0.Final">
     <configuration name="JBoss 16.0.0.Final" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 16.0.0.Final" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
-      <option name="UPDATING_POLICY" value="restart-server" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
         <artifact name="doit:war">
           <settings />
@@ -543,6 +504,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JBoss Server.JBoss 16.0.0.Final" />
+      <item itemvalue="JUnit.TodosResourceTest.crud" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TodosResourceTest.crud" />
@@ -566,6 +531,7 @@
       <workItem from="1564259903195" duration="2555000" />
       <workItem from="1564325577329" duration="1026000" />
       <workItem from="1564335636249" duration="1391000" />
+      <workItem from="1564435855337" duration="2387000" />
     </task>
     <servers />
   </component>
@@ -581,13 +547,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6157000" />
+    <option name="totallyTimeSpent" value="8544000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="26" width="1275" height="1354" extended-state="0" />
+    <frame x="4" y="26" width="1276" height="1354" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23357664" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23338735" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -597,7 +563,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.7111111" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.340729" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -656,6 +622,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/logging/BoundaryLogger.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/EJBExceptionMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/reminders/entity/ToDo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="900">
@@ -667,10 +641,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/reminders/boundary/ToDoManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="49" column="38" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/logging/boundary/BoundaryLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/airhacks/reminders/entity/ToDoTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
         </state>
       </provider>
     </entry>
@@ -695,48 +686,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/logging/BoundaryLogger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="31" column="63" selection-start-line="31" selection-start-column="63" selection-end-line="31" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/reminders/boundary/ToDoManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="49" column="38" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/logging/boundary/BoundaryLogger.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/monitoring/entity/CallEvent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="22" column="4" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/monitoring/entity/CallEvent.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/monitoring/boundary/BoundaryInvocationsResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+        <state relative-caret-position="285">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/monitoring/boundary/MonitorSink.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        <state relative-caret-position="36">
+          <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+          <folding>
+            <element signature="e#852#853#0" expanded="true" />
+            <element signature="e#915#916#0" expanded="true" />
+            <element signature="e#1109#1110#0" expanded="true" />
+            <element signature="e#1130#1131#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/EJBExceptionMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/monitoring/boundary/BoundaryStatisticsResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+        <state relative-caret-position="165">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="66" lean-forward="true" selection-start-line="12" selection-start-column="66" selection-end-line="12" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/business/reminders/entity/ToDo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="590">
+          <caret line="105" column="26" selection-start-line="105" selection-start-column="26" selection-end-line="105" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#20#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/presentation/Index.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="55" column="9" lean-forward="true" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#585#586#0" expanded="true" />
+            <element signature="e#676#677#0" expanded="true" />
+            <element signature="e#697#698#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

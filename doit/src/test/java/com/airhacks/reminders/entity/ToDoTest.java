@@ -5,6 +5,7 @@
  */
 package com.airhacks.reminders.entity;
 
+import com.airhacks.business.reminders.entity.ToDo;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
