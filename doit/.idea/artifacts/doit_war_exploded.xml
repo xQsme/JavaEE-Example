@@ -13,6 +13,9 @@
         <element id="directory" name="classes">
           <element id="module-output" name="doit" />
         </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.primefaces:primefaces:7.0" />
+        </element>
       </element>
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/target/doit/META-INF/MANIFEST.MF" />

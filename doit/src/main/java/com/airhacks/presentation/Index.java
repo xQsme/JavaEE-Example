@@ -15,6 +15,7 @@ import javax.faces.context.FacesContext;
 import javax.inject.Inject;
 import javax.validation.ConstraintViolation;
 import javax.validation.Validator;
+import java.util.List;
 import java.util.Set;
 
 /**
@@ -41,6 +42,11 @@ public class Index {
     public ToDo getTodo()
     {
         return this.todo;
+    }
+
+    public List<ToDo> getToDos()
+    {
+        return this.boundary.getAll();
     }
 
     public void showValidationError(String content)
