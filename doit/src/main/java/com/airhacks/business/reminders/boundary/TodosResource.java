@@ -31,6 +31,7 @@ import javax.ws.rs.core.UriInfo;
  */
 @Stateless
 @Path("todos")
+@Produces({MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML})
 public class TodosResource
 {
     @Inject

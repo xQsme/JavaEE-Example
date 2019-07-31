@@ -8,11 +8,7 @@ package com.airhacks.business.reminders.entity;
 import com.airhacks.business.CrossCheck;
 import com.airhacks.business.ValidEntity;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.NamedQuery;
-import javax.persistence.Version;
+import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 import javax.xml.bind.annotation.XmlAccessType;
@@ -28,6 +24,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 @XmlRootElement
 @XmlAccessorType(XmlAccessType.FIELD)
 @CrossCheck
+@EntityListeners(ToDOAuditor.class)
 public class ToDo implements ValidEntity {
     
     @Id
@@ -110,4 +107,11 @@ public class ToDo implements ValidEntity {
     public boolean isValid() {
         return this.priority <= 10 || (this.description != null && !this.description.isEmpty());
     }
+
+    @Override
+    public String toString() {
+        return "ToDo{" + "id=" + id + ", caption=" + caption + ", description=" + description + ", priority=" + priority + ", done=" + done + ", version=" + version + '}';
+    }
+    
+    
 }
