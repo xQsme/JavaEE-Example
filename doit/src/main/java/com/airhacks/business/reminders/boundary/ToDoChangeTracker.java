@@ -5,6 +5,7 @@
  */
 package com.airhacks.business.reminders.boundary;
 
+import com.airhacks.business.encoders.JsonEncoder;
 import com.airhacks.business.reminders.entity.ToDo;
 
 import javax.ejb.ConcurrencyManagement;
@@ -17,13 +18,16 @@ import javax.websocket.OnOpen;
 import javax.websocket.Session;
 import javax.websocket.server.ServerEndpoint;
 import java.io.IOException;
+import javax.json.Json;
+import javax.json.JsonObject;
+import javax.websocket.EncodeException;
 
 /**
  *
  * @author jabroni
  */
 @Singleton
-@ServerEndpoint("/changes")
+@ServerEndpoint(value = "/changes", encoders = {JsonEncoder.class})
 @ConcurrencyManagement(ConcurrencyManagementType.BEAN)
 public class ToDoChangeTracker {
 
@@ -41,12 +45,13 @@ public class ToDoChangeTracker {
         this.session=null;
     }
 
-    public void onToDoChange(@Observes(during = TransactionPhase.AFTER_SUCCESS) ToDo todo)
+    public void onToDoChange(@Observes(during = TransactionPhase.AFTER_SUCCESS) @ChangeEvent(ChangeEvent.Type.CREATION) ToDo todo) throws EncodeException
     {
         if(this.session != null && this.session.isOpen())
         {
             try {
-                this.session.getBasicRemote().sendText(todo.toString());
+                JsonObject event = Json.createObjectBuilder().add("id", todo.getId()).add("cause", "creation").build();
+                this.session.getBasicRemote().sendObject(event);
             } catch (IOException e){
             }
         }

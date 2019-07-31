@@ -12,7 +12,6 @@
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="user.country" value="PT"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="test" value="com.airhacks.reminders.entity.ToDoTest"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="user.dir" value="/Users/jabroni/NetBeansProjects/doit"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
@@ -42,7 +41,7 @@
     <property name="java.class.path" value="/Applications/NetBeans/NetBeans 11.app/Contents/Resources/NetBeans/java/maven/boot/plexus-classworlds-2.5.2.jar"/>
     <property name="java.vm.specification.version" value="12"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=com.airhacks.reminders.entity.ToDoTest -Dmaven.ext.class.path=/Applications/NetBeans/NetBeans 11.app/Contents/Resources/NetBeans/java/maven-nblib/netbeans-eventspy.jar surefire:test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dmaven.ext.class.path=/Applications/NetBeans/NetBeans 11.app/Contents/Resources/NetBeans/java/maven-nblib/netbeans-eventspy.jar clean install"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-12.0.1.jdk/Contents/Home"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -59,7 +58,7 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase classname="com.airhacks.reminders.entity.ToDoTest" name="validTodo" time="0.002"/>
-  <testcase classname="com.airhacks.reminders.entity.ToDoTest" name="invalidTodo" time="0"/>
+  <testcase classname="com.airhacks.reminders.entity.ToDoTest" name="validTodo" time="0.001"/>
+  <testcase classname="com.airhacks.reminders.entity.ToDoTest" name="invalidTodo" time="0.001"/>
   <testcase classname="com.airhacks.reminders.entity.ToDoTest" name="todoWithoutDescription" time="0"/>
 </testsuite>

@@ -5,7 +5,7 @@
  */
 package com.airhacks.business.reminders.entity;
 
-import com.airhacks.business.CrossCheck;
+import com.airhacks.business.validation.CrossCheck;
 import com.airhacks.business.ValidEntity;
 
 import javax.persistence.*;
@@ -24,7 +24,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 @XmlRootElement
 @XmlAccessorType(XmlAccessType.FIELD)
 @CrossCheck
-@EntityListeners(ToDOAuditor.class)
+@EntityListeners(ToDoAuditor.class)
 public class ToDo implements ValidEntity {
     
     @Id
