@@ -1,30 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bbcec181-372b-4345-b1f4-eba07b84f868" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/airhacks/doit/business/reminders/boundary/ChangesListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/airhacks/doit/business/reminders/boundary/ChangesListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.airhacks.doit.business.reminders.boundary.ToDoChangeTrackerIT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.airhacks.doit.business.reminders.boundary.ToDoChangeTrackerIT.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.airhacks.doit.business.reminders.boundary.ToDoChangeTrackerIT.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.airhacks.doit.business.reminders.boundary.ToDoChangeTrackerIT.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/airhacks/doit/business/reminders/boundary/ChangesListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/airhacks/doit/business/reminders/boundary/ChangesListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doit/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../doit/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doit/nb-configuration.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../doit/nb-configuration.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doit/target/classes/com/airhacks/business/reminders/boundary/ToDoChangeTracker.class" beforeDir="false" afterPath="$PROJECT_DIR$/../doit/target/classes/com/airhacks/business/reminders/boundary/ToDoChangeTracker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doit/target/classes/com/airhacks/business/reminders/entity/ToDo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../doit/target/classes/com/airhacks/business/reminders/entity/ToDo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doit/target/doit.war" beforeDir="false" afterPath="$PROJECT_DIR$/../doit/target/doit.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doit/target/doit/WEB-INF/classes/com/airhacks/business/CrossCheckConstraintValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../doit/target/doit/WEB-INF/classes/com/airhacks/business/CrossCheckConstraintValidator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doit/target/doit/WEB-INF/classes/com/airhacks/business/EJBExceptionMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../doit/target/doit/WEB-INF/classes/com/airhacks/business/EJBExceptionMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doit/target/doit/WEB-INF/classes/com/airhacks/business/control/ToDoChangeTracker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doit/target/doit/WEB-INF/classes/com/airhacks/business/logging/boundary/BoundaryLogger.class" beforeDir="false" afterPath="$PROJECT_DIR$/../doit/target/doit/WEB-INF/classes/com/airhacks/business/logging/boundary/BoundaryLogger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doit/target/doit/WEB-INF/classes/com/airhacks/business/logging/boundary/LogSink.class" beforeDir="false" afterPath="$PROJECT_DIR$/../doit/target/doit/WEB-INF/classes/com/airhacks/business/logging/boundary/LogSink.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doit/target/doit/WEB-INF/classes/com/airhacks/business/logging/boundary/LogSinkProducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../doit/target/doit/WEB-INF/classes/com/airhacks/business/logging/boundary/LogSinkProducer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doit/target/doit/WEB-INF/classes/com/airhacks/business/monitoring/boundary/MonitorSink.class" beforeDir="false" afterPath="$PROJECT_DIR$/../doit/target/doit/WEB-INF/classes/com/airhacks/business/monitoring/boundary/MonitorSink.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doit/target/doit/WEB-INF/classes/com/airhacks/business/monitoring/entity/CallEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/../doit/target/doit/WEB-INF/classes/com/airhacks/business/monitoring/entity/CallEvent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doit/target/doit/WEB-INF/classes/com/airhacks/business/reminders/boundary/ToDoManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../doit/target/doit/WEB-INF/classes/com/airhacks/business/reminders/boundary/ToDoManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doit/target/doit/WEB-INF/classes/com/airhacks/business/reminders/boundary/TodoResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/../doit/target/doit/WEB-INF/classes/com/airhacks/business/reminders/boundary/TodoResource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doit/target/doit/WEB-INF/classes/com/airhacks/business/reminders/entity/ToDOAuditor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../doit/target/doit/WEB-INF/classes/com/airhacks/business/reminders/entity/ToDOAuditor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doit/target/doit/WEB-INF/classes/com/airhacks/business/reminders/entity/ToDo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../doit/target/doit/WEB-INF/classes/com/airhacks/business/reminders/entity/ToDo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doit/target/doit/WEB-INF/classes/com/airhacks/presentation/Index.class" beforeDir="false" afterPath="$PROJECT_DIR$/../doit/target/doit/WEB-INF/classes/com/airhacks/presentation/Index.class" afterDir="false" />
-    </list>
+    <list default="true" id="bbcec181-372b-4345-b1f4-eba07b84f868" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,7 +19,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/com/airhacks/doit/business/reminders/boundary/TodosResourceIT.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="317">
-              <caret line="41" column="93" lean-forward="true" selection-start-line="41" selection-start-column="93" selection-end-line="41" selection-end-column="93" />
+              <caret line="41" column="93" selection-start-line="41" selection-start-column="93" selection-end-line="41" selection-end-column="93" />
             </state>
           </provider>
         </entry>
@@ -82,7 +59,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="4" />
     <option name="y" value="26" />
     <option name="width" value="1276" />
@@ -94,7 +71,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -133,6 +109,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -194,6 +171,7 @@
       <updated>1564250261542</updated>
       <workItem from="1564250264840" duration="116000" />
       <workItem from="1564607679403" duration="1000" />
+      <workItem from="1564769415976" duration="3000" />
     </task>
     <servers />
   </component>
@@ -206,13 +184,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117000" />
+    <option name="totallyTimeSpent" value="120000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="26" width="1276" height="1354" extended-state="0" />
+    <frame x="4" y="26" width="2552" height="1354" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25364667" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25537848" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -250,7 +228,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/airhacks/doit/business/reminders/boundary/TodosResourceIT.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="317">
-          <caret line="41" column="93" lean-forward="true" selection-start-line="41" selection-start-column="93" selection-end-line="41" selection-end-column="93" />
+          <caret line="41" column="93" selection-start-line="41" selection-start-column="93" selection-end-line="41" selection-end-column="93" />
         </state>
       </provider>
     </entry>

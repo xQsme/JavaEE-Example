@@ -51,8 +51,8 @@ public class Index {
 
     public void showValidationError(String content)
     {
-        FacesMessage message = new FacesMessage(FacesMessage.SEVERITY_WARN, content, content);
-        FacesContext.getCurrentInstance().addMessage("", message);
+        FacesMessage message = new FacesMessage(FacesMessage.SEVERITY_WARN, "Validation", content);
+        FacesContext.getCurrentInstance().addMessage(null, message);
     }
 
     public Object save()
@@ -65,8 +65,14 @@ public class Index {
         if(violations.isEmpty())
         {
             this.boundary.save(todo);
+            this.addMessage("Data saved");
         }
         return null;
+    }
+
+    public void addMessage(String summary) {
+        FacesMessage message = new FacesMessage(FacesMessage.SEVERITY_INFO, "Save attempt", summary);
+        FacesContext.getCurrentInstance().addMessage(null, message);
     }
 
 }
