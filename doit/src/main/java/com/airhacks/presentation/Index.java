@@ -88,6 +88,7 @@ public class Index {
         }
         if(violations.isEmpty())
         {
+            todo.setId(0);
             this.boundary.save(todo);
             this.addMessage("Save Attempt", "Data Saved");
         }
