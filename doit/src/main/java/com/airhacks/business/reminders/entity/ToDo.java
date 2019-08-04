@@ -37,7 +37,8 @@ public class ToDo implements ValidEntity {
     @NotNull
     @Size(min = 2, max = 256)
     private String caption;
-    
+
+    @Column( length = 100000 )
     private String description;
     private int priority;
     
