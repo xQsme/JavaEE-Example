@@ -7,7 +7,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a0246fd-ff27-4943-9843-257aaf22659c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/airhacks/business/reminders/entity/ToDo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/airhacks/business/reminders/entity/ToDo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/airhacks/business/reminders/boundary/ToDoManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/airhacks/business/reminders/boundary/ToDoManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/airhacks/presentation/Index.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/airhacks/presentation/Index.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/includes/dock.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/includes/dock.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/other.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/draggable.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/doit.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/airhacks/business/EJBExceptionMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/airhacks/business/EJBExceptionMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/airhacks/business/encoders/JsonEncoder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/airhacks/business/encoders/JsonEncoder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/airhacks/business/logging/boundary/BoundaryLogger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/airhacks/business/logging/boundary/BoundaryLogger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/airhacks/business/logging/boundary/LogSink.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/airhacks/business/logging/boundary/LogSink.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/airhacks/business/logging/boundary/LogSinkProducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/airhacks/business/logging/boundary/LogSinkProducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/airhacks/business/monitoring/boundary/MonitorSink.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/airhacks/business/monitoring/boundary/MonitorSink.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/airhacks/business/monitoring/entity/CallEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/airhacks/business/monitoring/entity/CallEvent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/airhacks/business/reminders/boundary/ChangeEvent$Type.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/airhacks/business/reminders/boundary/ChangeEvent$Type.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/airhacks/business/reminders/boundary/ToDoChangeTracker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/airhacks/business/reminders/boundary/ToDoChangeTracker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/airhacks/business/reminders/boundary/ToDoManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/airhacks/business/reminders/boundary/TodoResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/airhacks/business/reminders/boundary/TodoResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/airhacks/business/reminders/boundary/TodosResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/airhacks/business/reminders/boundary/TodosResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/airhacks/business/reminders/entity/ToDOAuditor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/airhacks/business/reminders/entity/ToDOAuditor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/airhacks/business/validation/CrossCheckConstraintValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/airhacks/business/validation/CrossCheckConstraintValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/airhacks/presentation/Index.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/airhacks/presentation/Index.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/doit.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/doit.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/doit/WEB-INF/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/doit/WEB-INF/classes/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/doit/WEB-INF/classes/com/airhacks/business/EJBExceptionMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/doit/WEB-INF/classes/com/airhacks/business/EJBExceptionMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/doit/WEB-INF/classes/com/airhacks/business/encoders/JsonEncoder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/doit/WEB-INF/classes/com/airhacks/business/encoders/JsonEncoder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/doit/WEB-INF/classes/com/airhacks/business/logging/boundary/BoundaryLogger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/doit/WEB-INF/classes/com/airhacks/business/logging/boundary/BoundaryLogger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/doit/WEB-INF/classes/com/airhacks/business/logging/boundary/LogSink.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/doit/WEB-INF/classes/com/airhacks/business/logging/boundary/LogSink.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/doit/WEB-INF/classes/com/airhacks/business/logging/boundary/LogSinkProducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/doit/WEB-INF/classes/com/airhacks/business/logging/boundary/LogSinkProducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/doit/WEB-INF/classes/com/airhacks/business/monitoring/boundary/MonitorSink.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/doit/WEB-INF/classes/com/airhacks/business/monitoring/boundary/MonitorSink.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/doit/WEB-INF/classes/com/airhacks/business/monitoring/entity/CallEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/doit/WEB-INF/classes/com/airhacks/business/monitoring/entity/CallEvent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/doit/WEB-INF/classes/com/airhacks/business/reminders/boundary/ChangeEvent$Type.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/doit/WEB-INF/classes/com/airhacks/business/reminders/boundary/ChangeEvent$Type.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/doit/WEB-INF/classes/com/airhacks/business/reminders/boundary/ToDoChangeTracker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/doit/WEB-INF/classes/com/airhacks/business/reminders/boundary/ToDoChangeTracker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/doit/WEB-INF/classes/com/airhacks/business/reminders/boundary/ToDoManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/doit/WEB-INF/classes/com/airhacks/business/reminders/boundary/ToDoManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/doit/WEB-INF/classes/com/airhacks/business/reminders/boundary/TodoResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/doit/WEB-INF/classes/com/airhacks/business/reminders/boundary/TodoResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/doit/WEB-INF/classes/com/airhacks/business/reminders/boundary/TodosResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/doit/WEB-INF/classes/com/airhacks/business/reminders/boundary/TodosResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/doit/WEB-INF/classes/com/airhacks/business/reminders/entity/ToDOAuditor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/doit/WEB-INF/classes/com/airhacks/business/reminders/entity/ToDOAuditor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/doit/WEB-INF/classes/com/airhacks/business/validation/CrossCheckConstraintValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/doit/WEB-INF/classes/com/airhacks/business/validation/CrossCheckConstraintValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/doit/WEB-INF/classes/com/airhacks/presentation/Index.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/doit/WEB-INF/classes/com/airhacks/presentation/Index.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/doit/WEB-INF/includes/dock.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/target/doit/WEB-INF/includes/dock.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/doit/other.xhtml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,35 +68,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/index.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/includes/dock.xhtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="65" selection-start-line="5" selection-start-column="65" selection-end-line="5" selection-end-column="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/other.xhtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="50" lean-forward="true" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="285">
+              <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -61,30 +77,53 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/business/reminders/boundary/ToDoManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="45" column="25" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
-              <folding>
-                <element signature="e#1207#1208#0" expanded="true" />
-                <element signature="e#1249#1250#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="60">
+              <caret line="4" column="97" selection-start-line="4" selection-start-column="97" selection-end-line="4" selection-end-column="97" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/draggable.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/includes/dock.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/doit.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="33" column="48" selection-start-line="33" selection-start-column="48" selection-end-line="33" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/business/reminders/entity/ToDo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1125">
-              <caret line="118" lean-forward="true" selection-start-line="118" selection-end-line="118" />
+            <state relative-caret-position="31">
+              <caret line="40" column="27" lean-forward="true" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
               <folding>
                 <element signature="e#0#20#1" expanded="true" />
               </folding>
@@ -93,10 +132,16 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/todos.xhtml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/business/reminders/boundary/ToDoManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="57" column="21" lean-forward="true" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
+            <state relative-caret-position="36">
+              <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+              <folding>
+                <element signature="e#766#767#0" expanded="true" />
+                <element signature="e#817#818#0" expanded="true" />
+                <element signature="e#1207#1208#0" expanded="true" />
+                <element signature="e#1249#1250#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -104,8 +149,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/presentation/Index.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="625">
+              <caret line="57" column="31" lean-forward="true" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,10 +159,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/airhacks/reminders/entity/ToDoTest.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="510">
+              <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -166,19 +211,19 @@
         <option value="$PROJECT_DIR$/src/main/java/com/airhacks/business/control/ToDoChangeTracker.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/airhacks/business/reminders/entity/ToDOAuditor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/airhacks/business/reminders/boundary/ToDoChangeTracker.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/airhacks/business/reminders/boundary/ToDoManager.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/dock.xhtml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/todos.xhtml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/dock.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.xhtml" />
         <option value="$PROJECT_DIR$/src/main/webapp/todos.xhtml" />
         <option value="$PROJECT_DIR$/src/main/webapp/other.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/airhacks/presentation/Index.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/includes/dock.xhtml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/airhacks/business/reminders/entity/ToDo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/airhacks/business/reminders/boundary/ToDoManager.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/includes/dock.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/airhacks/presentation/Index.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.xhtml" />
       </list>
     </option>
   </component>
@@ -203,6 +248,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -254,6 +300,27 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="airhacks" type="462c0819:PsiDirectoryNode" />
               <item name="business" type="462c0819:PsiDirectoryNode" />
+              <item name="boundary" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="airhacks" type="462c0819:PsiDirectoryNode" />
+              <item name="business" type="462c0819:PsiDirectoryNode" />
+              <item name="monitoring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="airhacks" type="462c0819:PsiDirectoryNode" />
+              <item name="business" type="462c0819:PsiDirectoryNode" />
+              <item name="monitoring" type="462c0819:PsiDirectoryNode" />
               <item name="boundary" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -333,15 +400,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="doit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="doit" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -363,7 +421,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -385,17 +442,18 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.airhacks.reminders.boundary" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/webapp" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/reminders" />
       <recent name="$PROJECT_DIR$/src/main/webapp" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/includes" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -645,13 +703,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36261000" />
+    <option name="totallyTimeSpent" value="39011000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="26" width="2552" height="1354" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16852589" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14223108" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -724,8 +782,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/business/reminders/boundary/ToDoChangeTracker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        <state relative-caret-position="560">
+          <caret line="52" column="30" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -733,13 +794,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -780,69 +834,134 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.xhtml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/business/logging/boundary/LogSink.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doit.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/business/logging/boundary/BoundaryLogger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/other.xhtml">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="50" lean-forward="true" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+        <state relative-caret-position="510">
+          <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/presentation/Index.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/business/monitoring/boundary/BoundaryStatisticsResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/includes/dock.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="65" selection-start-line="5" selection-start-column="65" selection-end-line="5" selection-end-column="65" />
+        <state relative-caret-position="90">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="495">
+          <caret line="33" column="48" selection-start-line="33" selection-start-column="48" selection-end-line="33" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/business/monitoring/boundary/BoundaryInvocationsResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/business/monitoring/boundary/MonitorSink.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/business/reminders/boundary/ChangeEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="60">
+          <caret line="4" column="97" selection-start-line="4" selection-start-column="97" selection-end-line="4" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/business/reminders/entity/ToDo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="40" column="27" lean-forward="true" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#20#1" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/business/reminders/boundary/ToDoManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="45" column="25" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
+        <state relative-caret-position="36">
+          <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
           <folding>
+            <element signature="e#766#767#0" expanded="true" />
+            <element signature="e#817#818#0" expanded="true" />
             <element signature="e#1207#1208#0" expanded="true" />
             <element signature="e#1249#1250#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/business/reminders/entity/ToDo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/includes/dock.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
-          <caret line="118" lean-forward="true" selection-start-line="118" selection-end-line="118" />
+        <state relative-caret-position="135">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/business/logging/boundary/LogSinkProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/presentation/Index.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="57" column="31" lean-forward="true" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
           <folding>
-            <element signature="e#0#20#1" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/draggable.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
         </state>
       </provider>
     </entry>

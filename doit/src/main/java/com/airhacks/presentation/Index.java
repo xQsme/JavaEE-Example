@@ -55,7 +55,7 @@ public class Index {
 
         images = new ArrayList<String>();
         for (int i = 1; i <= 14; i++) {
-            images.add(i + ".jpg");
+            images.add(i + "");
         }
     }
 

@@ -12,10 +12,12 @@
     </h:head>
     <h:body>
         <ui:include src="/WEB-INF/includes/dock.xhtml" />
-        <p:contentFlow value="#{index.images}" var="image">
-            <p:graphicImage name="images/#{image}" styleClass="content" />
-            <div class="caption">#{image}</div>
-        </p:contentFlow>
+        <ui:repeat value="#{index.images}" var="image" id="repeat">
+            <p:panel id="image#{image}" header="#{image}.jpg" style="width:23%; margin:1%; display:inline-block">
+                <p:graphicImage  name="images/#{image}.jpg" style="width:100%"/>
+            </p:panel>
+            <p:draggable for="repeat:#{image-1}:image" handle=".ui-panel-titlebar"/>
+        </ui:repeat>
     </h:body>
 </html>
 

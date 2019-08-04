@@ -8,6 +8,7 @@ package com.airhacks.business.reminders.boundary;
 import com.airhacks.business.logging.boundary.BoundaryLogger;
 import com.airhacks.business.reminders.entity.ToDo;
 import java.util.List;
+import javax.annotation.PostConstruct;
 import javax.ejb.Stateless;
 import javax.interceptor.Interceptors;
 import javax.persistence.EntityManager;
@@ -24,7 +25,21 @@ public class ToDoManager {
 
     @PersistenceContext
     EntityManager em;
-    
+
+    @PostConstruct
+    public void init()
+    {
+        save(new ToDo("Example","return this.em.createNamedQuery(ToDo.findAll, ToDo.class).getResultList();",1));
+        save(new ToDo("Example","return this.em.find(ToDo.class, id);",2));
+        save(new ToDo("Example","ToDo reference = this.em.getReference(ToDo.class, id);",3));
+        save(new ToDo("Short Example","Example",4));
+        save(new ToDo("Long Example","save(new ToDo(\"Example\",\"return this.em.createNamedQuery(ToDo.findAll, ToDo.class).getResultList();\",1));\n" +
+                "save(new ToDo(\"Example\",\"return this.em.find(ToDo.class, id);\",2));\n" +
+                "save(new ToDo(\"Example\",\"ToDo reference = this.em.getReference(ToDo.class, id);\",3));\n" +
+                "save(new ToDo(\"Example\",\"Example\",4));\n" +
+                "save(new ToDo(\"Example\",\"Example\",5));",5));
+    }
+
     public ToDo findById(long id) {
         return this.em.find(ToDo.class, id);
     }
