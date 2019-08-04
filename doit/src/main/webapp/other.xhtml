@@ -12,5 +12,17 @@
 </h:head>
 <h:body>
     <ui:include src="/WEB-INF/includes/dock.xhtml" />
+    <div class="wrapper" style="text-align: center;">
+        <p:commandButton type="button" onclick="PF('switcher').previous();"
+                         icon="fa fa-arrow-left" id="prev" style="margin-bottom: 5px"/>
+        <p:commandButton type="button" onclick="PF('switcher').next();"
+                         icon="fa fa-arrow-right" id="next" style="margin-bottom: 5px"/>
+    </div>
+    <p:imageSwitch effect="fade" widgetVar="switcher" id="manuelSwitcher"
+                   slideshowAuto="false">
+        <ui:repeat value="#{index.images}" var="image" id="manuelSwitcherImages">
+            <p:graphicImage name="images/#{image}" id="image"/>
+        </ui:repeat>
+    </p:imageSwitch>
 </h:body>
 </html>
