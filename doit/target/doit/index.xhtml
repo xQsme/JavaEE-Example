@@ -4,89 +4,19 @@
       xmlns:h="http://xmlns.jcp.org/jsf/html"
       xmlns:jsf="http://xmlns.jcp.org/jsf"
       xmlns:p="http://primefaces.org/ui"
-      xmlns:f="http://xmlns.jcp.org/jsf/core" xmlns:c="http://java.sun.com/jsp/jstl/core">
+      xmlns:f="http://xmlns.jcp.org/jsf/core" xmlns:c="http://java.sun.com/jsp/jstl/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets">
     <h:head>
         <title>ToDo Manager</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
     </h:head>
     <h:body>
-        <h:form style="padding-bottom: 10px" id="growl-form" onkeypress="if (event.keyCode === 13) { selectorClick(); return false; } ">
-            <p:growl id="growl" life="2000" showDetail="true"/>
-            <p:panel header="Add Reminder" style="text-align: center" id="reminder">
-            <h:panelGroup class="wrapper" id="hidden">
-                <p:inputText value="#{index.todo.id}" type="hidden"/>
-                <p:inputText value="#{index.todo.version}" type="hidden"/>
-            </h:panelGroup>
-            <p:panelGrid columns="2" style="margin: 0 auto" id="form-inputs">
-                <h:outputText value="Caption:"/><p:inputText value="#{index.todo.caption}" id="caption"/>
-                <h:outputText value="Description:"/> <p:inputText value="#{index.todo.description}" id="description"/>
-                <h:outputText value="Priority:"/> <p:inputText value="#{index.todo.priority}" id="priority"/>
-            </p:panelGrid>
-            </p:panel>
-            <div class="wrapper" style="text-align: center; padding-top: 10px">
-                <p:commandButton id="save" value="Save" action="#{index.save}" update="growl, reminders" style="margin-right:20px" icon="fa fa-save" />
-                <p:commandButton id="edit" onclick="validate()" value="Edit" action="#{index.edit}" update="growl, reminders" style="margin-right:20px; display:none" icon="fa fa-save" />
-                <p:commandButton id="cancel" onclick="show()" value="Cancel" action="#{index.cancel}" update="growl" style="margin-right:20px; display:none" icon="fa fa-window-close" />
-            </div>
-        </h:form>
-        <p:panel header="Reminders" style="text-align: center">
-            <p:dataTable value="#{index.toDos}" var="todo" id="reminders">
-                <p:column headerText="Id">
-                    <h:outputText value="#{todo.id}" />
-                </p:column>
-                <p:column headerText="Caption">
-                    <h:outputText value="#{todo.caption}" />
-                </p:column>
-                <p:column headerText="Description">
-                    <h:outputText value="#{todo.description}" />
-                </p:column>
-                <p:column headerText="Priority">
-                    <h:outputText value="#{todo.priority}" />
-                </p:column>
-                <p:column headerText="Actions">
-                    <h:form>
-                        <p:commandButton value="Edit" onclick="hide()" action="#{index.select}" update=":growl-form:growl, :growl-form:form-inputs, :growl-form:hidden" style="margin-right:20px" icon="fa fa-edit"><f:setPropertyActionListener target="${index.todo}" value="${todo}"></f:setPropertyActionListener></p:commandButton>
-                        <p:commandButton value="Delete" onclick="if (!confirm('Are you sure you want to delete this row?')) return false" action="#{index.delete}" update=":growl-form:growl, reminders" style="margin-right:20px" icon="fa fa-trash"><f:setPropertyActionListener target="${index.todoToDelete}" value="${todo}"></f:setPropertyActionListener></p:commandButton>
-                    </h:form>
-                </p:column>
-            </p:dataTable>
-        </p:panel>
+        <ui:include src="/WEB-INF/includes/dock.xhtml" />
+        <p:contentFlow value="#{index.images}" var="image">
+            <p:graphicImage name="images/#{image}" styleClass="content" />
+            <div class="caption">#{image}</div>
+        </p:contentFlow>
     </h:body>
-    <script type="text/javascript">
-        function hide() {
-            document.getElementById('growl-form').childNodes[4].childNodes[0].childNodes[0].innerHTML = "Edit Reminder";
-            document.getElementById('growl-form:save').style.display = 'none';
-            document.getElementById('growl-form:edit').style.display = 'inline-block';
-            document.getElementById('growl-form:cancel').style.display = 'inline-block';
-        }
-        function show() {
-            document.getElementById('growl-form').childNodes[4].childNodes[0].childNodes[0].innerHTML = "Add Reminder";
-            document.getElementById('growl-form:save').style.display = 'inline-block';
-            document.getElementById('growl-form:edit').style.display = 'none';
-            document.getElementById('growl-form:cancel').style.display = 'none';
-        }
-        function validate()
-        {
-            var caption = document.getElementById('growl-form:caption').value;
-            var description = document.getElementById('growl-form:description').value;
-            var priority = document.getElementById('growl-form:priority').value;
-            if(caption.length > 2 &amp;&amp; (description != "" || priority &lt; 10))
-            {
-                show();
-            }
-        }
-        function selectorClick()
-        {
-            if(document.getElementById('growl-form:save').style.display === 'none')
-            {
-                document.getElementById('growl-form:edit').click();
-            }
-            else
-            {
-                document.getElementById('growl-form:save').click();
-            }
-        }
-    </script>
 </html>
 
 

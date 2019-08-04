@@ -19,6 +19,7 @@ import javax.faces.context.FacesContext;
 import javax.inject.Inject;
 import javax.validation.ConstraintViolation;
 import javax.validation.Validator;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
@@ -41,18 +42,21 @@ public class Index {
     @Inject
     Validator validator;
 
+    private List<String> images;
+
+    public List<String> getImages() {
+        return images;
+    }
+
     @PostConstruct
     public void init()
     {
         this.todo = new ToDo();
 
-        model = new DefaultMenuModel();
-        DefaultSubMenu secondSubmenu = new DefaultSubMenu("Dynamic Actions");
-        DefaultMenuItem item = new DefaultMenuItem("Save");
-        item.setIcon("pi pi-save");
-        item.setUpdate("messages");
-        secondSubmenu.addElement(item);
-        model.addElement(secondSubmenu);
+        images = new ArrayList<String>();
+        for (int i = 1; i <= 14; i++) {
+            images.add(i + ".jpg");
+        }
     }
 
     public ToDo getTodo()
