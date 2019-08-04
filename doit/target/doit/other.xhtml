@@ -7,22 +7,17 @@
       xmlns:f="http://xmlns.jcp.org/jsf/core" xmlns:c="http://java.sun.com/jsp/jstl/core"
       xmlns:ui="http://java.sun.com/jsf/facelets">
 <h:head>
-    <title>Other Page</title>
+    <title>Draggable Reminders</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
 </h:head>
 <h:body>
     <ui:include src="/WEB-INF/includes/dock.xhtml" />
-    <div class="wrapper" style="text-align: center;">
-        <p:commandButton type="button" onclick="PF('switcher').previous();"
-                         icon="fa fa-arrow-left" id="prev" style="margin-bottom: 5px"/>
-        <p:commandButton type="button" onclick="PF('switcher').next();"
-                         icon="fa fa-arrow-right" id="next" style="margin-bottom: 5px"/>
-    </div>
-    <p:imageSwitch effect="fade" widgetVar="switcher" id="manuelSwitcher"
-                   slideshowAuto="false">
-        <ui:repeat value="#{index.images}" var="image" id="manuelSwitcherImages">
-            <p:graphicImage name="images/#{image}" id="image"/>
-        </ui:repeat>
-    </p:imageSwitch>
+    <H3 style="text-align: center">Draggable Reminders</H3>
+    <ui:repeat value="#{index.toDos}" var="todo" id="repeat">
+        <p:panel id="todo#{todo.id}" header="#{todo.caption}" style="width:25%; margin-left:5%; margin-bottom: 5%; display:inline-block">
+            <h:outputText value="#{todo.description}" />
+        </p:panel>
+        <p:draggable for="repeat:#{todo.id-1}:todo" handle=".ui-panel-titlebar"/>
+    </ui:repeat>
 </h:body>
 </html>
