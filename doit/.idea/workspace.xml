@@ -7,39 +7,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a0246fd-ff27-4943-9843-257aaf22659c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/airhacks/business/reminders/boundary/ProfileManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/airhacks/business/reminders/boundary/ProfileResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/airhacks/business/reminders/boundary/ProfilesResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/airhacks/business/reminders/entity/Profile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/airhacks/presentation/Profiles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/airhacks/presentation/ToDoPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/draggableProfiles.xhtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/profiles.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doit-st/target/classes/.netbeans_automatic_build" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doit-st/target/test-classes/.netbeans_automatic_build" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/airhacks/business/reminders/boundary/ToDoManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/airhacks/business/reminders/boundary/ToDoManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/airhacks/business/reminders/entity/ToDo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/airhacks/business/reminders/entity/ToDo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/airhacks/presentation/Index.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/airhacks/presentation/Index.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/airhacks/presentation/ToDoPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/airhacks/presentation/ToDoPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/includes/dock.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/includes/dock.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/draggable.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/draggableTodos.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/home.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/other.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/todo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/todos.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/todos.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/.netbeans_automatic_build" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/airhacks/business/reminders/entity/ToDo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/airhacks/business/reminders/entity/ToDo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/airhacks/presentation/Index.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/airhacks/presentation/Index.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/draggableProfiles.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/profileView.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/draggableTodos.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/reminderView.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/profiles.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/profiles.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/todos.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/reminders.xhtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/doit.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/doit.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/doit/WEB-INF/classes/.netbeans_automatic_build" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/doit/WEB-INF/classes/com/airhacks/business/reminders/entity/ToDo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/doit/WEB-INF/classes/com/airhacks/business/reminders/entity/ToDo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/doit/WEB-INF/classes/com/airhacks/presentation/Index.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/doit/WEB-INF/classes/com/airhacks/presentation/Index.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/doit/WEB-INF/includes/dock.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/target/doit/WEB-INF/includes/dock.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/doit/draggable.xhtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/doit/resources/home.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/doit/resources/other.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/doit/resources/todo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/doit/todos.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/target/doit/todos.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/doit/profiles.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/target/doit/profiles.xhtml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -63,20 +41,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/draggableProfiles.xhtml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/profileView.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+            <state relative-caret-position="210">
+              <caret line="14" column="42" lean-forward="true" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/draggableTodos.xhtml">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/reminderView.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+            <state relative-caret-position="210">
+              <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -84,8 +62,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/includes/dock.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="42" />
+            <state relative-caret-position="165">
+              <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -93,22 +71,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/presentation/Profiles.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="56" column="9" lean-forward="true" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
+            <state relative-caret-position="395">
+              <caret line="142" column="23" selection-start-line="142" selection-start-column="23" selection-end-line="142" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#946#947#0" expanded="true" />
-                <element signature="e#973#974#0" expanded="true" />
-                <element signature="e#1019#1020#0" expanded="true" />
-                <element signature="e#1051#1052#0" expanded="true" />
-                <element signature="e#870#871#0" expanded="true" />
-                <element signature="e#900#901#0" expanded="true" />
-                <element signature="e#947#948#0" expanded="true" />
-                <element signature="e#985#986#0" expanded="true" />
-                <element signature="e#943#944#0" expanded="true" />
-                <element signature="e#981#982#0" expanded="true" />
-                <element signature="e#1044#1045#0" expanded="true" />
-                <element signature="e#1098#1099#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -117,8 +83,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/profiles.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="181" selection-start-line="31" selection-start-column="181" selection-end-line="31" selection-end-column="181" />
+            <state relative-caret-position="309">
+              <caret line="27" column="18" lean-forward="true" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -126,10 +92,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/business/reminders/entity/ToDo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="61" column="28" selection-start-line="61" selection-start-column="28" selection-end-line="61" selection-end-column="28" />
+            <state relative-caret-position="619">
+              <caret line="67" column="39" selection-start-line="67" selection-start-column="39" selection-end-line="67" selection-end-column="39" />
               <folding>
                 <element signature="e#0#20#1" expanded="true" />
+                <element signature="e#1844#1845#0" expanded="true" />
+                <element signature="e#1883#1884#0" expanded="true" />
+                <element signature="e#1642#1643#0" expanded="true" />
                 <element signature="e#1670#1671#0" expanded="true" />
                 <element signature="e#1710#1711#0" expanded="true" />
                 <element signature="e#1744#1745#0" expanded="true" />
@@ -141,47 +110,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/presentation/ToDoPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="58" selection-start-line="58" selection-end-line="64" selection-end-column="20" />
+            <state relative-caret-position="1406">
+              <caret line="130" column="5" lean-forward="true" selection-start-line="130" selection-start-column="5" selection-end-line="130" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1119#1120#0" expanded="true" />
-                <element signature="e#1167#1168#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/business/reminders/entity/Profile.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/business/reminders/boundary/ToDoManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="56" column="27" lean-forward="true" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#0#23#1" expanded="true" />
-                <element signature="e#1391#1392#0" expanded="true" />
-                <element signature="e#1419#1420#0" expanded="true" />
-                <element signature="e#1459#1460#0" expanded="true" />
-                <element signature="e#1493#1494#0" expanded="true" />
-                <element signature="e#1803#1804#0" expanded="true" />
-                <element signature="e#1831#1832#0" expanded="true" />
-                <element signature="e#2186#2187#0" expanded="true" />
-                <element signature="e#2248#2249#0" expanded="true" />
-                <element signature="e#2330#2331#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="405">
+              <caret line="39" column="92" selection-start-line="39" selection-start-column="92" selection-end-line="39" selection-end-column="92" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/business/reminders/boundary/ProfileManager.java">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/reminders.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="345">
+              <caret line="23" column="65" selection-start-line="23" selection-start-column="65" selection-end-line="23" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -245,7 +196,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/resources/dock.xhtml" />
         <option value="$PROJECT_DIR$/src/main/webapp/other.xhtml" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/airhacks/business/reminders/boundary/ToDoManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/airhacks/presentation/ToDo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/airhacks/presentation/ToDO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/airhacks/presentation/Index.java" />
@@ -254,16 +204,20 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/airhacks/business/reminders/boundary/ProfileResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/airhacks/business/reminders/boundary/ProfilesResource.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/includes/dock.xhtml" />
         <option value="$PROJECT_DIR$/src/main/webapp/todos.xhtml" />
         <option value="$PROJECT_DIR$/src/main/java/com/airhacks/business/reminders/boundary/ProfileManager.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/profiles.xhtml" />
         <option value="$PROJECT_DIR$/src/main/webapp/draggableTodos.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/airhacks/business/reminders/entity/ToDo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/airhacks/presentation/ToDoPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/airhacks/presentation/Profiles.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/airhacks/business/reminders/entity/Profile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/airhacks/presentation/Profiles.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/draggableProfiles.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/includes/dock.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/airhacks/presentation/ToDoPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/airhacks/business/reminders/entity/ToDo.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/reminders.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/profiles.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/profileView.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/reminderView.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/airhacks/business/reminders/boundary/ToDoManager.java" />
       </list>
     </option>
   </component>
@@ -288,8 +242,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -468,16 +420,12 @@
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
               <item name="includes" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="doit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="doit" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -747,6 +695,8 @@
       <workItem from="1564873637406" duration="3562000" />
       <workItem from="1564927298674" duration="3472000" />
       <workItem from="1565103073283" duration="14058000" />
+      <workItem from="1565122768343" duration="261000" />
+      <workItem from="1565129330087" duration="3586000" />
     </task>
     <servers />
   </component>
@@ -762,13 +712,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53069000" />
+    <option name="totallyTimeSpent" value="56916000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="26" width="2552" height="1354" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14302789" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13227092" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -847,12 +797,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/other.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/home.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/other.png" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/home.png" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/airhacks/reminders/entity/ToDoTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -960,13 +906,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/business/reminders/boundary/ToDoManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="21" selection-start-line="21" selection-end-line="21" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/business/reminders/boundary/ProfilesResource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1011,17 +950,43 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/todos.xhtml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/business/reminders/entity/Profile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="37" column="23" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
+        <state relative-caret-position="675">
+          <caret line="56" column="27" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1391#1392#0" expanded="true" />
+            <element signature="e#1419#1420#0" expanded="true" />
+            <element signature="e#1459#1460#0" expanded="true" />
+            <element signature="e#1493#1494#0" expanded="true" />
+            <element signature="e#2152#2153#0" expanded="true" />
+            <element signature="e#2186#2187#0" expanded="true" />
+            <element signature="e#2218#2219#0" expanded="true" />
+            <element signature="e#2248#2249#0" expanded="true" />
+            <element signature="e#2292#2293#0" expanded="true" />
+            <element signature="e#2330#2331#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/includes/dock.xhtml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/business/reminders/boundary/ProfileManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="42" />
+        <state relative-caret-position="180">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/presentation/Profiles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="142" column="23" selection-start-line="142" selection-start-column="23" selection-end-line="142" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1032,29 +997,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/business/reminders/boundary/ProfileManager.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/includes/dock.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        <state relative-caret-position="165">
+          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/presentation/ToDoPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1406">
+          <caret line="130" column="5" lean-forward="true" selection-start-line="130" selection-start-column="5" selection-end-line="130" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/profiles.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="181" selection-start-line="31" selection-start-column="181" selection-end-line="31" selection-end-column="181" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/business/reminders/entity/ToDo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="61" column="28" selection-start-line="61" selection-start-column="28" selection-end-line="61" selection-end-column="28" />
+        <state relative-caret-position="619">
+          <caret line="67" column="39" selection-start-line="67" selection-start-column="39" selection-end-line="67" selection-end-column="39" />
           <folding>
             <element signature="e#0#20#1" expanded="true" />
+            <element signature="e#1844#1845#0" expanded="true" />
+            <element signature="e#1883#1884#0" expanded="true" />
+            <element signature="e#1642#1643#0" expanded="true" />
             <element signature="e#1670#1671#0" expanded="true" />
             <element signature="e#1710#1711#0" expanded="true" />
             <element signature="e#1744#1745#0" expanded="true" />
@@ -1062,71 +1030,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/presentation/ToDoPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="58" selection-start-line="58" selection-end-line="64" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1119#1120#0" expanded="true" />
-            <element signature="e#1167#1168#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/business/reminders/entity/Profile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="56" column="27" lean-forward="true" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#0#23#1" expanded="true" />
-            <element signature="e#1391#1392#0" expanded="true" />
-            <element signature="e#1419#1420#0" expanded="true" />
-            <element signature="e#1459#1460#0" expanded="true" />
-            <element signature="e#1493#1494#0" expanded="true" />
-            <element signature="e#1803#1804#0" expanded="true" />
-            <element signature="e#1831#1832#0" expanded="true" />
-            <element signature="e#2186#2187#0" expanded="true" />
-            <element signature="e#2248#2249#0" expanded="true" />
-            <element signature="e#2330#2331#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/presentation/Profiles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="56" column="9" lean-forward="true" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#946#947#0" expanded="true" />
-            <element signature="e#973#974#0" expanded="true" />
-            <element signature="e#1019#1020#0" expanded="true" />
-            <element signature="e#1051#1052#0" expanded="true" />
-            <element signature="e#870#871#0" expanded="true" />
-            <element signature="e#900#901#0" expanded="true" />
-            <element signature="e#947#948#0" expanded="true" />
-            <element signature="e#985#986#0" expanded="true" />
-            <element signature="e#943#944#0" expanded="true" />
-            <element signature="e#981#982#0" expanded="true" />
-            <element signature="e#1044#1045#0" expanded="true" />
-            <element signature="e#1098#1099#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/draggableTodos.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/draggableProfiles.xhtml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/reminders.xhtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+          <caret line="23" column="65" selection-start-line="23" selection-start-column="65" selection-end-line="23" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/profiles.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="27" column="18" lean-forward="true" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/profileView.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="42" lean-forward="true" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/reminderView.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/airhacks/business/reminders/boundary/ToDoManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="39" column="92" selection-start-line="39" selection-start-column="92" selection-end-line="39" selection-end-column="92" />
         </state>
       </provider>
     </entry>

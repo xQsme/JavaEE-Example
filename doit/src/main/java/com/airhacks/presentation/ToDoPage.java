@@ -32,6 +32,8 @@ public class ToDoPage {
 
     private ToDo todoToDelete;
 
+    private ToDo todoToChange;
+
     @Inject
     Validator validator;
 
@@ -48,6 +50,10 @@ public class ToDoPage {
 
     public void setTodo(ToDo todo) {
         this.todo = todo;
+    }
+
+    public void setTodoToChange(ToDo todoToChange) {
+        this.todoToChange = todoToChange;
     }
 
     public void setTodoToDelete(ToDo todoToDelete) {
@@ -118,6 +124,14 @@ public class ToDoPage {
     {
         this.boundary.delete(todoToDelete.getId());
         this.addMessage("Delete Attempt", "Row Deleted");
+        return null;
+    }
+
+    public Object change()
+    {
+        todoToChange.setDone(!todoToChange.isDone());
+        this.boundary.save(todoToChange);
+        this.addMessage("Change", "Status Changed");
         return null;
     }
 
