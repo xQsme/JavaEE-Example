@@ -26,10 +26,13 @@ import javax.xml.bind.annotation.XmlRootElement;
 @CrossCheck
 @EntityListeners(ToDoAuditor.class)
 public class ToDo implements ValidEntity {
-    
+
+    @TableGenerator(name = "Todo_Gen", initialValue = 0)
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.TABLE, generator = "Todo_Gen")
     private long id;
+
+    private long index;
     
     public static final String PREFIX = "reminders.entity.ToDo.";
     public static final String findAll = PREFIX + "findAll";
@@ -55,7 +58,15 @@ public class ToDo implements ValidEntity {
     
     public ToDo() {
     }
-    
+
+    public long getIndex() {
+        return index;
+    }
+
+    public void setIndex(long index) {
+        this.index = index;
+    }
+
     public long getId() {
         return id;
     }

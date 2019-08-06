@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:jsf="http://xmlns.jcp.org/jsf"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:f="http://xmlns.jcp.org/jsf/core" xmlns:c="http://java.sun.com/jsp/jstl/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets">
+<h:head>
+    <title>Draggable Reminders</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
+</h:head>
+<h:body>
+    <ui:include src="/WEB-INF/includes/dock.xhtml" />
+    <H3 style="text-align: center">Draggable Profiles</H3>
+    <ui:repeat value="#{profiles.profiles}" var="profile" id="repeat">
+        <p:panel id="profile#{profile.index}" header="#{profile.caption}" style="width:46%; margin: 1%; display:inline-block; vertical-align: middle">
+            <p:graphicImage  name="images/#{profile.imageName}" style="width:25%; display:inline-block"/>
+            <h:outputText value="#{profile.description}" style="width:75%; display:inline-block; word-wrap: break-word; padding-left: 10px; vertical-align: middle"/>
+        </p:panel>
+        <p:draggable for="repeat:#{profile.index}:profile" handle=".ui-panel-titlebar"/>
+    </ui:repeat>
+</h:body>
+</html>
